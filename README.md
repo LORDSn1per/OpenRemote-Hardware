@@ -1,6 +1,6 @@
-# OMOTE - Open Universal Remote - Hardware
+# OpenRemote - Open Universal Remote - Hardware
 
-![](images/OMOTE_assembled.jpg)
+![](images/OpenRemote_assembled.jpg)
 
 ## Overview
 
@@ -32,7 +32,7 @@ The project uses a 2000mAh Li-Ion battery with a JST-PHR-2 connector. Any 3.7V L
 The 2.8" capacitive touchscreen can be sourced from Adafruit ([2770](https://www.adafruit.com/product/2770)). If you look for the part number CH280QV10-CT, you can also buy this display directly from the manufacturer via [Alibaba](https://www.alibaba.com/product-detail/High-Quality-240-3-rgb-320_1600408828330.html). Shipping from China is expensive, so this only makes sense if you order multiple displays. In general, the cost for a single OMOTE is quite high. Please join the [Discord server](https://discord.gg/5PnYFAsKsG) and then check out the [buy-sell page](https://discord.com/channels/1138116475559882852/1153343867681243279) to see if you can share the cost of the PCBs and components with others.
 
 <div align="center">
-  <img src="images/OMOTE_parts.jpg" width="80%">
+  <img src="images/OpenRemote_parts.jpg" width="80%">
 </div>
 
 The [housing and buttons](https://github.com/OMOTE-Community/OMOTE-Hardware/tree/main/CAD) can be printed using PLA or PETG. The parts from the project photos were sliced with PrusaSlicer with a layer height of 0.25mm and printed using ColorFabb PETG. It is important that the case part is printed with its flat side towards the print bed using lots of support structures. If your printer is well calibrated, the cover plate will snap onto the case.

@@ -2096,7 +2096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:XDCR_LIS3DHTR"
+		(property "Footprint" "OpenRemoteLib:XDCR_LIS3DHTR"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -3434,7 +3434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:Heimdall vertical"
+		(property "Footprint" "OpenRemoteLib:Heimdall vertical"
 			(at -1.27 -11.43 0)
 			(effects
 				(font

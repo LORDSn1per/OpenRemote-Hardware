@@ -5,7 +5,7 @@
 	(uuid "67a795c7-71c1-4a83-b6d2-c7272e071e9d")
 	(paper "A3")
 	(title_block
-		(title "OMOTE - Open Universal Remote")
+		(title "OpenRemote - Open Universal Remote")
 		(date "2024-12-22")
 		(rev "5")
 		(company "Maximilian Kern")
@@ -8092,7 +8092,7 @@
 					)
 				)
 			)
-			(property "Footprint" "omoteLib:Heimdall vertical"
+			(property "Footprint" "OpenRemoteLib:Heimdall vertical"
 				(at -1.27 -11.43 0)
 				(effects
 					(font
@@ -8497,7 +8497,7 @@
 				)
 			)
 		)
-		(symbol "omoteLib:Conn_01x50"
+		(symbol "OpenRemoteLib:Conn_01x50"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -8519,7 +8519,7 @@
 					)
 				)
 			)
-			(property "Footprint" "omoteLib:TFT_2.83IN_240X320_50PIN"
+			(property "Footprint" "OpenRemoteLib:TFT_2.83IN_240X320_50PIN"
 				(at 1.27 -68.58 0)
 				(effects
 					(font
@@ -10046,7 +10046,7 @@
 				)
 			)
 		)
-		(symbol "omoteLib:DW01A"
+		(symbol "OpenRemoteLib:DW01A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10217,7 +10217,7 @@
 				)
 			)
 		)
-		(symbol "omoteLib:FS8205A"
+		(symbol "OpenRemoteLib:FS8205A"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10568,7 +10568,7 @@
 				)
 			)
 		)
-		(symbol "omoteLib:LIS3DHTR"
+		(symbol "OpenRemoteLib:LIS3DHTR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -10961,7 +10961,7 @@
 				)
 			)
 		)
-		(symbol "omoteLib:MAX17048G"
+		(symbol "OpenRemoteLib:MAX17048G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11186,7 +11186,7 @@
 				)
 			)
 		)
-		(symbol "omoteLib:TCA8418"
+		(symbol "OpenRemoteLib:TCA8418"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11681,7 +11681,7 @@
 				)
 			)
 		)
-		(symbol "omoteLib:TP4056"
+		(symbol "OpenRemoteLib:TP4056"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11906,7 +11906,7 @@
 				)
 			)
 		)
-		(symbol "omoteLib:USBLC6-2P6"
+		(symbol "OpenRemoteLib:USBLC6-2P6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23837,7 +23837,7 @@
 			(uuid "0c620576-4f08-4dc6-9ea6-e932e0f6699d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0149")
 					(unit 1)
@@ -23903,7 +23903,7 @@
 			(uuid "e15bb481-2614-4b25-b644-9fbc4f9083cb")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0141")
 					(unit 1)
@@ -23980,7 +23980,7 @@
 			(uuid "a9f4a0cc-8aaf-4cf8-b7ba-c0d229fa1b65")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP7")
 					(unit 1)
@@ -24060,7 +24060,7 @@
 			(uuid "020232a7-fe68-4c3e-8350-b06b4503239f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R5")
 					(unit 1)
@@ -24138,7 +24138,7 @@
 			(uuid "d5d57b1c-9917-44c2-bad7-28b005dc5ebf")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C29")
 					(unit 1)
@@ -24204,7 +24204,7 @@
 			(uuid "df9f00ba-7844-4ea8-a17e-ffdd95015586")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0121")
 					(unit 1)
@@ -24270,7 +24270,7 @@
 			(uuid "e98b3b0d-3e10-4b04-aca1-35126341949e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR070")
 					(unit 1)
@@ -24336,7 +24336,7 @@
 			(uuid "5e0cdd09-f1f1-4430-9fc0-99996f8dfcd7")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR033")
 					(unit 1)
@@ -24401,7 +24401,7 @@
 			(uuid "324822a0-6629-455c-a8a4-80a7ac85f3de")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0143")
 					(unit 1)
@@ -24479,7 +24479,7 @@
 			(uuid "81d12f06-59fd-490c-8cef-1f164126aae0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C14")
 					(unit 1)
@@ -24545,7 +24545,7 @@
 			(uuid "07031a82-6a01-43dd-bf51-6af0543acfb9")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR012")
 					(unit 1)
@@ -24611,7 +24611,7 @@
 			(uuid "8fbb9ab1-cafb-4b51-86fd-fc1b3726f306")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR041")
 					(unit 1)
@@ -24733,7 +24733,7 @@
 			(uuid "6a99aeee-3dea-480f-ab0a-137595b2aaa1")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U3")
 					(unit 1)
@@ -24799,7 +24799,7 @@
 			(uuid "dd1707d3-01f1-4c29-a574-e8db41b26d14")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR050")
 					(unit 1)
@@ -24866,7 +24866,7 @@
 			(uuid "15aed12a-6f24-4e3e-a3ce-59e16a707633")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR027")
 					(unit 1)
@@ -24943,7 +24943,7 @@
 			(uuid "360e6b16-bb73-4dbd-ae95-0c6db334f663")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP12")
 					(unit 1)
@@ -25016,7 +25016,7 @@
 			)
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "FID2")
 					(unit 1)
@@ -25081,7 +25081,7 @@
 			(uuid "b490aeb5-495b-4f6d-ae8f-20c876dce7b9")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR077")
 					(unit 1)
@@ -25147,7 +25147,7 @@
 			(uuid "8774d3e0-f7fa-4406-8829-28c6d3c19b58")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR042")
 					(unit 1)
@@ -25223,7 +25223,7 @@
 			(uuid "566ed453-7e65-469f-988a-4870b0ccd695")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D15")
 					(unit 1)
@@ -25300,7 +25300,7 @@
 			(uuid "f1063b50-5066-4b8b-8394-e1eedfbef073")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP10")
 					(unit 1)
@@ -25366,7 +25366,7 @@
 			(uuid "eec43ecf-7e99-49ec-a720-e5cfd64a5ce1")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0117")
 					(unit 1)
@@ -25445,7 +25445,7 @@
 			(uuid "a452b6c7-6d4d-433d-86df-d71c3ce1b70a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C9")
 					(unit 1)
@@ -25521,7 +25521,7 @@
 			(uuid "124a6718-ff90-4964-a20b-427a87ff959e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D3")
 					(unit 1)
@@ -25587,7 +25587,7 @@
 			(uuid "e6e72284-fd0c-451c-9e82-2d053da8d09a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR068")
 					(unit 1)
@@ -25675,7 +25675,7 @@
 			(uuid "9dbc2870-4cf3-4caf-a27b-f94d3468283c")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S11")
 					(unit 1)
@@ -25743,7 +25743,7 @@
 			(uuid "a0bf1e25-00d1-4e8a-84bc-9916d0be670e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR048")
 					(unit 1)
@@ -25808,7 +25808,7 @@
 			(uuid "1ec4540b-5316-4721-8e00-3b715f915cbc")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0147")
 					(unit 1)
@@ -25884,7 +25884,7 @@
 			(uuid "ca4680b8-061b-4e48-92ea-4d787a8a7a66")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP2")
 					(unit 1)
@@ -25950,7 +25950,7 @@
 			(uuid "35b86b00-9e3a-4b25-af6e-8ce5d46a6313")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR060")
 					(unit 1)
@@ -26016,7 +26016,7 @@
 			(uuid "d1c0788b-0fb2-4360-b706-83f51d64f97a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR047")
 					(unit 1)
@@ -26082,7 +26082,7 @@
 			(uuid "3abedf83-962c-403d-ae1c-c7d9620e0fd7")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR045")
 					(unit 1)
@@ -26148,7 +26148,7 @@
 			(uuid "3fff255d-5a1d-4c77-bed1-95875cd9580b")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR057")
 					(unit 1)
@@ -26214,7 +26214,7 @@
 			(uuid "6bd10ca2-3c79-47ed-ac08-ff91a2fb3c28")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR029")
 					(unit 1)
@@ -26286,7 +26286,7 @@
 			)
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "H6")
 					(unit 1)
@@ -26365,7 +26365,7 @@
 			(uuid "c5ecc8d8-fd27-4cb1-9fac-07c5609fe660")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R12")
 					(unit 1)
@@ -26432,7 +26432,7 @@
 			(uuid "8e2feb4e-d9d4-4386-ab0e-14e04433dbbb")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0116")
 					(unit 1)
@@ -26509,7 +26509,7 @@
 			(uuid "dbb27668-d3a5-4720-b421-aa70a79e204d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP5")
 					(unit 1)
@@ -26588,7 +26588,7 @@
 			(uuid "e63158f4-6d88-4752-9495-7107354dc51e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R25")
 					(unit 1)
@@ -26655,7 +26655,7 @@
 			(uuid "c61dd852-d3d7-4ca6-bcfd-2b53a7f241a4")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR022")
 					(unit 1)
@@ -26721,7 +26721,7 @@
 			(uuid "f0aceb38-1fc3-441b-86f8-5f6c4791cc8a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR076")
 					(unit 1)
@@ -26809,7 +26809,7 @@
 			(uuid "36dbd29a-e0ef-43ec-aefa-ca3cae0325f7")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S10")
 					(unit 1)
@@ -26875,7 +26875,7 @@
 			(uuid "d656d0cd-40fa-427e-90e0-54c5959d3f79")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR021")
 					(unit 1)
@@ -26940,7 +26940,7 @@
 			(uuid "634168b2-a345-4dbe-966a-a1d56f6cb1a9")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR062")
 					(unit 1)
@@ -27017,7 +27017,7 @@
 			(uuid "4a2d22a4-3715-4839-b1ab-6bbb32b02b59")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R13")
 					(unit 1)
@@ -27082,7 +27082,7 @@
 			(uuid "1297693d-b7f8-42eb-bf59-e6a6e247b483")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0150")
 					(unit 1)
@@ -27147,7 +27147,7 @@
 			(uuid "018579f9-0a82-4d89-b9e2-22ac1c7130c2")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0142")
 					(unit 1)
@@ -27215,7 +27215,7 @@
 			(uuid "8317149f-168b-40d6-8b10-0d51938a9bc2")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR019")
 					(unit 1)
@@ -27295,7 +27295,7 @@
 			(uuid "5a4b53dd-460f-465d-9722-2805ad4f758f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R1")
 					(unit 1)
@@ -27380,7 +27380,7 @@
 			(uuid "e5663dfc-2766-4ce7-ad18-f81d05d7568f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U2")
 					(unit 1)
@@ -27445,7 +27445,7 @@
 			(uuid "b747ef0e-8a8b-4bba-8236-dd3cbc08f150")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR024")
 					(unit 1)
@@ -27522,7 +27522,7 @@
 			(uuid "a24650b1-93e4-42a8-af01-48e0844401c0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP23")
 					(unit 1)
@@ -27598,7 +27598,7 @@
 			(uuid "d594c2c3-95bf-49e9-b43b-6b107b36541d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D6")
 					(unit 1)
@@ -27677,7 +27677,7 @@
 			(uuid "81bf5acc-e9b6-447d-8510-04bf90f54259")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R29")
 					(unit 1)
@@ -27742,7 +27742,7 @@
 			(uuid "f245f30f-9091-4223-a8e6-25186f389c67")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0145")
 					(unit 1)
@@ -27821,7 +27821,7 @@
 			(uuid "2314bada-a864-456f-a93b-25386af945bd")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R35")
 					(unit 1)
@@ -27909,7 +27909,7 @@
 			(uuid "6c8048be-b1cf-4e29-ab11-a9f617e18d31")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S22")
 					(unit 1)
@@ -27975,7 +27975,7 @@
 			(uuid "df6a4c22-d8e0-4932-b99b-8d06bbf7aeba")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR061")
 					(unit 1)
@@ -28052,7 +28052,7 @@
 			(uuid "74145e56-41ea-4d61-951a-1e55cbcaca1f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP22")
 					(unit 1)
@@ -28117,7 +28117,7 @@
 			(uuid "6c2a24a8-60be-41dd-9876-a246ffce9912")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0124")
 					(unit 1)
@@ -28182,7 +28182,7 @@
 			(uuid "9025b9a1-3356-4a9c-92fc-f0d4aa27d2ac")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR013")
 					(unit 1)
@@ -28259,7 +28259,7 @@
 			(uuid "e999b48e-8cdd-4494-9fc9-7934423860e1")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R19")
 					(unit 1)
@@ -28338,7 +28338,7 @@
 			(uuid "6fb6dff2-21de-4502-8ba1-b648b5321a85")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R10")
 					(unit 1)
@@ -28403,7 +28403,7 @@
 			(uuid "5a115940-2c2b-4042-876e-24bb3068b314")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0146")
 					(unit 1)
@@ -28483,7 +28483,7 @@
 			(uuid "ae0709ff-591a-436f-8c70-01107de6ca75")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C15")
 					(unit 1)
@@ -28560,7 +28560,7 @@
 			(uuid "856b6407-f90d-40bf-918a-4071b5fe8559")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP19")
 					(unit 1)
@@ -28648,7 +28648,7 @@
 			(uuid "9c352e44-adea-421f-843a-e2f930cc0a3d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S20")
 					(unit 1)
@@ -28713,7 +28713,7 @@
 			(uuid "19c81999-48de-40ec-a69c-7e7f7267c8a1")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR07")
 					(unit 1)
@@ -28789,7 +28789,7 @@
 			(uuid "21a86096-186d-4afc-9876-016a2f02313a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP9")
 					(unit 1)
@@ -28856,7 +28856,7 @@
 			(uuid "b7cbb04b-1913-4211-8153-c10e8052a31e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR064")
 					(unit 1)
@@ -29052,7 +29052,7 @@
 			(uuid "894263b4-08f5-4492-aaf7-e4013bbf1215")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U7")
 					(unit 1)
@@ -29131,7 +29131,7 @@
 			(uuid "9977cbbd-2815-4d9f-aaa5-baa0656e439d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R24")
 					(unit 1)
@@ -29197,7 +29197,7 @@
 			(uuid "1bd774b9-4b9b-4d9d-86fa-34c459d74069")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0119")
 					(unit 1)
@@ -29274,7 +29274,7 @@
 			(uuid "2ff1bc98-b008-4f95-a055-cbf25492c18d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP20")
 					(unit 1)
@@ -29340,7 +29340,7 @@
 			(uuid "a7515062-1592-4bbe-91e2-84f0cc353e44")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR066")
 					(unit 1)
@@ -29408,7 +29408,7 @@
 			(uuid "7bf22983-5984-4714-955f-fc8390b7bf97")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR014")
 					(unit 1)
@@ -29487,7 +29487,7 @@
 			(uuid "78aade9f-2418-4535-ba85-d79ca6d3333f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C11")
 					(unit 1)
@@ -29553,7 +29553,7 @@
 			(uuid "cd3adcff-0d6f-4985-aef8-3ec7601b9e84")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR03")
 					(unit 1)
@@ -29641,7 +29641,7 @@
 			(uuid "e5700a2a-0c52-4102-a951-477193747892")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S26")
 					(unit 1)
@@ -29706,7 +29706,7 @@
 			(uuid "7cdc3e43-b6f4-49ed-8704-a43ba4f1c480")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0144")
 					(unit 1)
@@ -29784,7 +29784,7 @@
 			(uuid "30af3341-11e4-4ba5-9574-1602f8a2f9a0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C5")
 					(unit 1)
@@ -29818,7 +29818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:Heimdall vertical"
+		(property "Footprint" "OpenRemoteLib:Heimdall vertical"
 			(at 251.46 227.33 0)
 			(effects
 				(font
@@ -29867,7 +29867,7 @@
 			(uuid "2dcf81a3-f4c4-4746-91a9-0450608298bc")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U6")
 					(unit 1)
@@ -29955,7 +29955,7 @@
 			(uuid "57809c8e-b277-4765-bcf3-e5e5d793b403")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S7")
 					(unit 1)
@@ -30031,7 +30031,7 @@
 			(uuid "278ca2f3-21e1-4641-9b7f-67bbd67dddc7")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "H5")
 					(unit 1)
@@ -30108,7 +30108,7 @@
 			(uuid "7e5797d6-4117-429d-96e1-b432ba9b5fa1")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP18")
 					(unit 1)
@@ -30174,7 +30174,7 @@
 			(uuid "028a9bb3-bd66-469d-b135-16fd1feda012")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR065")
 					(unit 1)
@@ -30251,7 +30251,7 @@
 			(uuid "26e668e7-37d7-4a36-b261-e0f5bdce0b2e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R21")
 					(unit 1)
@@ -30260,7 +30260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:LIS3DHTR")
+		(lib_id "OpenRemoteLib:LIS3DHTR")
 		(at 360.68 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -30412,7 +30412,7 @@
 			(uuid "7894f35e-88c2-4369-92ac-963f03d82a56")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U5")
 					(unit 1)
@@ -30488,7 +30488,7 @@
 			(uuid "542b1850-3cf7-4dc9-96a6-41301bcb2441")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D8")
 					(unit 1)
@@ -30566,7 +30566,7 @@
 			(uuid "9e9e5a05-99de-4464-bf91-4a4b9bb19adb")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "F1")
 					(unit 1)
@@ -30644,7 +30644,7 @@
 			(uuid "aa9bb4ac-ff35-4e46-8100-f54b402eca9e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R40")
 					(unit 1)
@@ -30723,7 +30723,7 @@
 			(uuid "4db35395-2e60-44e3-8828-6a0cc8a3c500")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C7")
 					(unit 1)
@@ -30789,7 +30789,7 @@
 			(uuid "21b45092-f713-4c6d-ac3f-e2cd296372b2")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR016")
 					(unit 1)
@@ -30798,7 +30798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:DW01A")
+		(lib_id "OpenRemoteLib:DW01A")
 		(at 124.46 172.72 0)
 		(mirror y)
 		(unit 1)
@@ -30879,7 +30879,7 @@
 			(uuid "d62cd6f2-c845-46f2-ac49-26c619747fbf")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U1")
 					(unit 1)
@@ -30958,7 +30958,7 @@
 			(uuid "746f15cd-45df-430e-b032-f4cefce0d504")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C13")
 					(unit 1)
@@ -31025,7 +31025,7 @@
 			(uuid "92c92018-6499-49b3-b83d-2b71dab0e79f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0110")
 					(unit 1)
@@ -31090,7 +31090,7 @@
 			(uuid "412a8548-c572-484c-bbac-8cc69410a816")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR059")
 					(unit 1)
@@ -31178,7 +31178,7 @@
 			(uuid "9d10590b-b0ae-4d8c-b84b-01867642844a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S18")
 					(unit 1)
@@ -31257,7 +31257,7 @@
 			(uuid "1493fbe6-38cc-4789-9a2c-1ec38f140ee1")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C3")
 					(unit 1)
@@ -31322,7 +31322,7 @@
 			(uuid "ea75d6e3-52d6-4cb9-a9af-0a4cf498c35a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR036")
 					(unit 1)
@@ -31388,7 +31388,7 @@
 			(uuid "daf8b750-a5e6-4930-92a9-5f5b670a7338")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR011")
 					(unit 1)
@@ -31453,7 +31453,7 @@
 			(uuid "85910476-fbdf-4494-a0b6-f1e4169fcea9")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR038")
 					(unit 1)
@@ -31518,7 +31518,7 @@
 			(uuid "a53c77d7-867b-4d49-92d0-ac849f84db32")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR032")
 					(unit 1)
@@ -31601,7 +31601,7 @@
 			(uuid "6928b249-10b5-4c7a-a138-4fd65335c73e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q7")
 					(unit 1)
@@ -31689,7 +31689,7 @@
 			(uuid "65dd760e-4c48-447d-8608-ab1e2ff4db91")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S9")
 					(unit 1)
@@ -31755,7 +31755,7 @@
 			(uuid "c36a4de0-dd76-455d-adda-90675503b6b2")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR031")
 					(unit 1)
@@ -31821,7 +31821,7 @@
 			(uuid "c8d661b9-5bd5-4d00-8f3f-f7e6f704b5eb")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR051")
 					(unit 1)
@@ -31894,7 +31894,7 @@
 			)
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "FID1")
 					(unit 1)
@@ -31974,7 +31974,7 @@
 			(uuid "70718176-d905-47e7-a1ac-853e3ac54ed3")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C27")
 					(unit 1)
@@ -32040,7 +32040,7 @@
 			(uuid "0484e0c4-2eea-4084-abfa-5e488acdd648")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR078")
 					(unit 1)
@@ -32127,7 +32127,7 @@
 			(uuid "82ae244e-03b4-48fc-baf0-df5d54085bc5")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S1")
 					(unit 1)
@@ -32217,7 +32217,7 @@
 			(uuid "5812892c-3971-4807-8744-d93a6be0ad3c")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q2")
 					(unit 2)
@@ -32305,7 +32305,7 @@
 			(uuid "642c9f85-d882-4061-8aab-1e69989f6a75")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S19")
 					(unit 1)
@@ -32393,7 +32393,7 @@
 			(uuid "3cae9469-07be-40e6-b166-5e6152c22978")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S12")
 					(unit 1)
@@ -32459,7 +32459,7 @@
 			(uuid "26b3ca09-7e08-4b13-9f08-4ed7b29c0532")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR04")
 					(unit 1)
@@ -32544,7 +32544,7 @@
 			(uuid "c88bf4a0-34de-4976-b86f-b5753635bf1a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q3")
 					(unit 1)
@@ -32610,7 +32610,7 @@
 			(uuid "924157b0-520c-48d3-bc75-5028705f2398")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0109")
 					(unit 1)
@@ -32686,7 +32686,7 @@
 			(uuid "99676912-db3b-4b23-89dc-5ea2f7b7c723")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D13")
 					(unit 1)
@@ -32762,7 +32762,7 @@
 			(uuid "1943483e-3dce-4a9e-b885-78bef9f5d264")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "H4")
 					(unit 1)
@@ -32850,7 +32850,7 @@
 			(uuid "cf67884f-4aef-4b05-ac1d-0d22f97d6cd5")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S5")
 					(unit 1)
@@ -32929,7 +32929,7 @@
 			(uuid "671f6d33-a3c2-4f79-87a3-cd25ea9ed143")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R41")
 					(unit 1)
@@ -32995,7 +32995,7 @@
 			(uuid "f4361f8b-1157-4593-8b4b-32a955ccf238")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR049")
 					(unit 1)
@@ -33071,7 +33071,7 @@
 			(uuid "c1acdaf9-9709-4ded-a0cd-e19a4b235e93")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "H3")
 					(unit 1)
@@ -33148,7 +33148,7 @@
 			(uuid "4ab0d954-5c5f-4950-b741-274772b93b9d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R14")
 					(unit 1)
@@ -33224,7 +33224,7 @@
 			(uuid "f5df60e2-62de-4418-bfe3-3d153c2e2739")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R3")
 					(unit 1)
@@ -33303,7 +33303,7 @@
 			(uuid "6f9cc538-a6dc-4bc1-9f37-1429960c4cdf")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R33")
 					(unit 1)
@@ -33337,7 +33337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "OpenRemoteLib:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 39.37 50.8 0)
 			(effects
 				(font
@@ -33425,7 +33425,7 @@
 			(uuid "9f0e655b-c876-4eeb-afeb-199eb122030e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "J1")
 					(unit 1)
@@ -33501,7 +33501,7 @@
 			(uuid "e7e52e28-0402-4fe1-94ec-771be74c5e64")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R17")
 					(unit 1)
@@ -33577,7 +33577,7 @@
 			(uuid "9ec1e434-84e0-4bfd-9be5-b454f7822cc3")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R15")
 					(unit 1)
@@ -33654,7 +33654,7 @@
 			(uuid "9ebfeabc-e28c-411e-b005-dad9de1b8cec")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R8")
 					(unit 1)
@@ -33726,7 +33726,7 @@
 			)
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "H7")
 					(unit 1)
@@ -33802,7 +33802,7 @@
 			(uuid "8b881df9-cfa7-4caa-9060-3bc800d3788a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D10")
 					(unit 1)
@@ -33878,7 +33878,7 @@
 			(uuid "48f7c255-f3ae-43a3-8bb5-cc64669aae4d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R16")
 					(unit 1)
@@ -33966,7 +33966,7 @@
 			(uuid "c5cd8b58-6875-4da4-a0ba-578d318d0071")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S8")
 					(unit 1)
@@ -34043,7 +34043,7 @@
 			(uuid "a22562b2-5b3f-4d45-b926-0478c03208db")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R9")
 					(unit 1)
@@ -34122,7 +34122,7 @@
 			(uuid "876160b8-d559-44a0-b114-d83c27b67bae")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R44")
 					(unit 1)
@@ -34201,7 +34201,7 @@
 			(uuid "5706dda9-c9cd-458e-af96-52f1da4371a2")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C1")
 					(unit 1)
@@ -34278,7 +34278,7 @@
 			(uuid "b07969c1-9fa4-4750-907c-44e9131107d9")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP8")
 					(unit 1)
@@ -34355,7 +34355,7 @@
 			(uuid "eccbe97d-e16f-42f1-a2cf-0ac3518c61ab")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R30")
 					(unit 1)
@@ -34431,7 +34431,7 @@
 			(uuid "99fb1ed3-76cc-4420-ae5c-94c13fbd09a7")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D5")
 					(unit 1)
@@ -34497,7 +34497,7 @@
 			(uuid "24be5b13-8ca0-4b85-b791-2f94534119cc")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR074")
 					(unit 1)
@@ -34533,7 +34533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "omoteLib:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+		(property "Footprint" "OpenRemoteLib:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 157.48 154.94 0)
 			(effects
 				(font
@@ -34576,7 +34576,7 @@
 			(uuid "6e295587-f77f-45d0-89ce-2decfb4ffe69")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "J3")
 					(unit 1)
@@ -34664,7 +34664,7 @@
 			(uuid "fa7eff20-fd30-4877-80c1-a70a7016c1e0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S25")
 					(unit 1)
@@ -34729,7 +34729,7 @@
 			(uuid "4a65d579-25ef-485c-bceb-1fe9d962ef9e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0137")
 					(unit 1)
@@ -34805,7 +34805,7 @@
 			(uuid "79c517b4-a77d-476e-8df7-62dbecba1e49")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "H1")
 					(unit 1)
@@ -34882,7 +34882,7 @@
 			(uuid "94718205-eb7e-466c-9b72-d68b296ebc8c")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP16")
 					(unit 1)
@@ -34947,7 +34947,7 @@
 			(uuid "d75c14a0-79f8-4eaa-9a1f-eef69929ec81")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0106")
 					(unit 1)
@@ -35014,7 +35014,7 @@
 			(uuid "84281066-0edd-439b-b237-94620baf03e0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR018")
 					(unit 1)
@@ -35099,7 +35099,7 @@
 			(uuid "e0be408e-3cd8-4815-bd52-4fc10d08f7ad")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U8")
 					(unit 1)
@@ -35182,7 +35182,7 @@
 			(uuid "1d7e5b5e-6bda-4a69-9657-5d51d8fdf1a2")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q4")
 					(unit 1)
@@ -35191,7 +35191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:USBLC6-2P6")
+		(lib_id "OpenRemoteLib:USBLC6-2P6")
 		(at 78.74 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35272,7 +35272,7 @@
 			(uuid "2e64901e-c822-4e44-ad20-aa1f2063b0e0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U4")
 					(unit 1)
@@ -35345,7 +35345,7 @@
 			)
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "FID3")
 					(unit 1)
@@ -35424,7 +35424,7 @@
 			(uuid "c4ada595-ab56-4683-b611-375ee3d364c0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C16")
 					(unit 1)
@@ -35503,7 +35503,7 @@
 			(uuid "6446a41c-2901-48f0-9ef6-a54986d26c14")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R42")
 					(unit 1)
@@ -35581,7 +35581,7 @@
 			(uuid "d921b7fe-eae1-439d-b1a3-87861d0ed3f2")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "J4")
 					(unit 1)
@@ -35660,7 +35660,7 @@
 			(uuid "12fd5931-5a60-4c36-adb6-f87c704bf16e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R38")
 					(unit 1)
@@ -35736,7 +35736,7 @@
 			(uuid "597d0cc8-9a37-4de8-8b33-c9747404ab78")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R18")
 					(unit 1)
@@ -35815,7 +35815,7 @@
 			(uuid "b18533ef-ea66-4847-89a0-451f1f72b37a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R27")
 					(unit 1)
@@ -35880,7 +35880,7 @@
 			(uuid "0e9514dd-a2fe-495a-a8c5-1467e5566801")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0135")
 					(unit 1)
@@ -35960,7 +35960,7 @@
 			(uuid "9c9433e9-f61a-47d6-a3bc-7bb7934c4534")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C25")
 					(unit 1)
@@ -36025,7 +36025,7 @@
 			(uuid "9c7f5a33-9e38-41eb-8749-8a38a811c082")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR039")
 					(unit 1)
@@ -36104,7 +36104,7 @@
 			(uuid "31af05f1-1491-467d-bd44-89d9060a72c4")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R23")
 					(unit 1)
@@ -36181,7 +36181,7 @@
 			(uuid "3d530fc0-9563-4531-94c3-5745c25ccde8")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP13")
 					(unit 1)
@@ -36248,7 +36248,7 @@
 			(uuid "a31771eb-c00c-4f04-a5bd-07f328622a21")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR053")
 					(unit 1)
@@ -36326,7 +36326,7 @@
 			(uuid "09347746-c1e5-4510-9ae1-cc8fd436edcc")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C22")
 					(unit 1)
@@ -36362,7 +36362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "omoteLib:LED_5mm_Side_Mount"
+		(property "Footprint" "OpenRemoteLib:LED_5mm_Side_Mount"
 			(at 205.105 233.68 0)
 			(effects
 				(font
@@ -36405,7 +36405,7 @@
 			(uuid "d2329f87-5863-42eb-a5fb-e04664887e32")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D2")
 					(unit 1)
@@ -36493,7 +36493,7 @@
 			(uuid "d8e3287b-1684-4f22-9852-a25156bba21a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S4")
 					(unit 1)
@@ -36502,7 +36502,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:Conn_01x50")
+		(lib_id "OpenRemoteLib:Conn_01x50")
 		(at 388.62 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36528,7 +36528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "omoteLib:TFT_2.83IN_240X320_50PIN"
+		(property "Footprint" "OpenRemoteLib:TFT_2.83IN_240X320_50PIN"
 			(at 389.89 237.49 0)
 			(effects
 				(font
@@ -36718,7 +36718,7 @@
 			(uuid "83d8fc52-cd65-4c30-b7e7-92baec6d0c77")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "J2")
 					(unit 1)
@@ -36806,7 +36806,7 @@
 			(uuid "63ad4d69-177b-4e03-ad5b-12074a426651")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S13")
 					(unit 1)
@@ -36885,7 +36885,7 @@
 			(uuid "7dc4df64-d684-492b-be4c-f62347ad89a8")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C21")
 					(unit 1)
@@ -36950,7 +36950,7 @@
 			(uuid "bf798421-70b6-423f-8a42-437d71e5a91c")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR034")
 					(unit 1)
@@ -37017,7 +37017,7 @@
 			(uuid "ae3c6b0b-46bc-487d-913f-929a6ab75955")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR063")
 					(unit 1)
@@ -37093,7 +37093,7 @@
 			(uuid "7e357c21-bad8-4b55-9934-5cfcd068e2f0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D4")
 					(unit 1)
@@ -37160,7 +37160,7 @@
 			(uuid "cb23a46e-6fad-4a2e-8aff-51db989cdb13")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0115")
 					(unit 1)
@@ -37239,7 +37239,7 @@
 			(uuid "4b1ce177-2023-42fe-bdc7-3b93ebfb7111")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C24")
 					(unit 1)
@@ -37315,7 +37315,7 @@
 			(uuid "2852f6f7-3425-41d3-8e7d-b37fdff6863e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "H2")
 					(unit 1)
@@ -37380,7 +37380,7 @@
 			(uuid "6a0ca9db-0c50-4ed8-9cae-a00abeafbf05")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR02")
 					(unit 1)
@@ -37459,7 +37459,7 @@
 			(uuid "53d3628d-e1db-4227-927e-4336780a65c4")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C26")
 					(unit 1)
@@ -37535,7 +37535,7 @@
 			(uuid "e51b9b6b-7622-4f34-9d43-e7f7a227cf9a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP4")
 					(unit 1)
@@ -37608,7 +37608,7 @@
 			)
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "FID4")
 					(unit 1)
@@ -37687,7 +37687,7 @@
 			(uuid "435a0045-cc9a-4764-90b8-d63209f21a46")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R26")
 					(unit 1)
@@ -37764,7 +37764,7 @@
 			(uuid "0faf931b-f241-4d4c-a77a-48cb19531f66")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP6")
 					(unit 1)
@@ -37843,7 +37843,7 @@
 			(uuid "c2276e05-1c63-4a52-8e13-3cf81bda696d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R32")
 					(unit 1)
@@ -37909,7 +37909,7 @@
 			(uuid "e0f067b8-48b6-40a6-85bf-f1cb8171f15d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR028")
 					(unit 1)
@@ -37989,7 +37989,7 @@
 			(uuid "e0ee00ec-f717-46eb-ab20-47f0ed8bef45")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R11")
 					(unit 1)
@@ -38055,7 +38055,7 @@
 			(uuid "0078839c-4a4d-4b4d-879e-1d0e3540ffc0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR025")
 					(unit 1)
@@ -38137,7 +38137,7 @@
 			(uuid "0632948d-34f5-472b-a318-db21de6abafd")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U10")
 					(unit 1)
@@ -38214,7 +38214,7 @@
 			(uuid "33f575c5-7226-4336-bbbc-7578688d8b0b")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R7")
 					(unit 1)
@@ -38279,7 +38279,7 @@
 			(uuid "a23dc813-f5ca-4358-ba5d-02e267af615f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR056")
 					(unit 1)
@@ -38358,7 +38358,7 @@
 			(uuid "9ea5e04f-1a01-4bab-894d-17038bf401e3")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R43")
 					(unit 1)
@@ -38438,7 +38438,7 @@
 			(uuid "250d94c8-19af-45f1-8fd6-97894d85cef6")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C6")
 					(unit 1)
@@ -38503,7 +38503,7 @@
 			(uuid "4c7d5c27-d31f-4b9a-8368-55b4753bc45f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0131")
 					(unit 1)
@@ -38568,7 +38568,7 @@
 			(uuid "326b7005-a934-40e0-bb32-c63e1c131d28")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR05")
 					(unit 1)
@@ -38634,7 +38634,7 @@
 			(uuid "7522918d-03d1-4f2b-941d-7fd7a08a01d7")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR071")
 					(unit 1)
@@ -38713,7 +38713,7 @@
 			(uuid "d21bd511-e4c5-4e36-8c36-12fc92b602e2")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R20")
 					(unit 1)
@@ -38791,7 +38791,7 @@
 			(uuid "5408383d-7831-4020-af0f-3bfcb59d3261")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C23")
 					(unit 1)
@@ -38856,7 +38856,7 @@
 			(uuid "d0b5dc77-9202-43aa-8c00-41d0b64cd813")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0102")
 					(unit 1)
@@ -38932,7 +38932,7 @@
 			(uuid "01dce81f-3014-47aa-af73-179f94697afc")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP11")
 					(unit 1)
@@ -39011,7 +39011,7 @@
 			(uuid "c80a6b3c-ae3b-499b-9114-a52e38a0b819")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R39")
 					(unit 1)
@@ -39077,7 +39077,7 @@
 			(uuid "bda50dd3-f30d-4156-a6bf-86900307d482")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0151")
 					(unit 1)
@@ -39086,7 +39086,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:FS8205A")
+		(lib_id "OpenRemoteLib:FS8205A")
 		(at 137.16 185.42 90)
 		(mirror x)
 		(unit 1)
@@ -39170,7 +39170,7 @@
 			(uuid "f8b56db8-e7d0-43f1-a859-b4d07c821c7a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q6")
 					(unit 1)
@@ -39247,7 +39247,7 @@
 			(uuid "6e5236ea-1266-48a5-9ffd-87baf46c3daa")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP21")
 					(unit 1)
@@ -39325,7 +39325,7 @@
 			(uuid "e90dc677-2df1-4bb1-8275-2b1fd2c9ed96")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C28")
 					(unit 1)
@@ -39405,7 +39405,7 @@
 			(uuid "e179c651-dc08-45f1-8c0c-57c37dc441c5")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R37")
 					(unit 1)
@@ -39471,7 +39471,7 @@
 			(uuid "37f7a176-bbcf-41d5-9573-949324e9b85a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR073")
 					(unit 1)
@@ -39537,7 +39537,7 @@
 			(uuid "90a86cab-fb8d-4df0-916f-cec9f2f0b087")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR09")
 					(unit 1)
@@ -39602,7 +39602,7 @@
 			(uuid "87332d8f-430a-4baf-8310-fe8dddc845ff")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR058")
 					(unit 1)
@@ -39667,7 +39667,7 @@
 			(uuid "2ae9c36d-2261-4097-ada6-13fc290cb5ad")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR043")
 					(unit 1)
@@ -39747,7 +39747,7 @@
 			(uuid "ef225e01-3f7f-4be6-bce8-cdc17b47617c")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C8")
 					(unit 1)
@@ -39812,7 +39812,7 @@
 			(uuid "2cadf7ac-573d-4c27-97d8-c2e7dcb5d82b")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0153")
 					(unit 1)
@@ -39845,7 +39845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:MicroSD Slot TF-01A"
+		(property "Footprint" "OpenRemoteLib:MicroSD Slot TF-01A"
 			(at 313.69 119.38 0)
 			(effects
 				(font
@@ -39912,7 +39912,7 @@
 			(uuid "9b8d90e4-ac16-4a79-b027-4bcd46594966")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "J5")
 					(unit 1)
@@ -39977,7 +39977,7 @@
 			(uuid "6da5e447-9e1f-490d-b461-936103eee0c6")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR017")
 					(unit 1)
@@ -40042,7 +40042,7 @@
 			(uuid "420d0805-5f61-418d-93c4-1f1ec5fd1fda")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR040")
 					(unit 1)
@@ -40118,7 +40118,7 @@
 			(uuid "6b3d5e7c-0d27-4dee-84df-6d94f7edc2cc")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D11")
 					(unit 1)
@@ -40183,7 +40183,7 @@
 			(uuid "3c0456d0-7674-4925-a613-4cbdd6ff8916")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR055")
 					(unit 1)
@@ -40248,7 +40248,7 @@
 			(uuid "8bd3f826-a733-4df9-8a2f-0f3df08bb4c5")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR06")
 					(unit 1)
@@ -40313,7 +40313,7 @@
 			(uuid "aa2816a6-7109-4039-b68c-80c4139ac4bb")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR023")
 					(unit 1)
@@ -40392,7 +40392,7 @@
 			(uuid "5c3234c5-4dcf-4b00-a8f8-0984e944e196")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R31")
 					(unit 1)
@@ -40401,7 +40401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:FS8205A")
+		(lib_id "OpenRemoteLib:FS8205A")
 		(at 111.76 185.42 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -40484,7 +40484,7 @@
 			(uuid "f8b56db8-e7d0-43f1-a859-b4d07c821c7b")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q6")
 					(unit 2)
@@ -40561,7 +40561,7 @@
 			(uuid "ff3d8633-6f0f-4510-be35-a791aafa4eda")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP15")
 					(unit 1)
@@ -40627,7 +40627,7 @@
 			(uuid "a2d9d502-c15b-498f-a7ae-a9b86f47242c")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0139")
 					(unit 1)
@@ -40706,7 +40706,7 @@
 			(uuid "c88ad7c3-c830-439c-91f7-e5e368e1c770")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C20")
 					(unit 1)
@@ -40785,7 +40785,7 @@
 			(uuid "bba6d5cd-669e-43e7-94a5-5d34c1015063")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R34")
 					(unit 1)
@@ -40850,7 +40850,7 @@
 			(uuid "641312dc-02f9-4dc7-8899-ec201241c671")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR015")
 					(unit 1)
@@ -40916,7 +40916,7 @@
 			(uuid "d17de028-5ed8-429a-891d-4966ca1653e9")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR037")
 					(unit 1)
@@ -40995,7 +40995,7 @@
 			(uuid "9ec5938a-f7a0-42aa-82c7-2de07eaf681c")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R6")
 					(unit 1)
@@ -41072,7 +41072,7 @@
 			(uuid "d02a49ea-d436-41cd-96fa-08a615817203")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP14")
 					(unit 1)
@@ -41140,7 +41140,7 @@
 			(uuid "43e6ce3d-4a15-4bed-b9db-65da503f387e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR08")
 					(unit 1)
@@ -41228,7 +41228,7 @@
 			(uuid "2ba83b1c-c03f-44bb-97c3-843b1405e5ae")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S16")
 					(unit 1)
@@ -41237,7 +41237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:MAX17048G")
+		(lib_id "OpenRemoteLib:MAX17048G")
 		(at 142.24 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41325,7 +41325,7 @@
 			(uuid "4d2a0811-5edb-4e2e-a780-968206e6520a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U9")
 					(unit 1)
@@ -41391,7 +41391,7 @@
 			(uuid "a71734e7-2ab9-4273-b6a6-667ebfb20f46")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR075")
 					(unit 1)
@@ -41458,7 +41458,7 @@
 			(uuid "a9578227-2028-470d-9246-3799faa32e05")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR046")
 					(unit 1)
@@ -41541,7 +41541,7 @@
 			(uuid "39c21999-b054-42ad-b864-525024a08774")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q1")
 					(unit 1)
@@ -41617,7 +41617,7 @@
 			(uuid "d412bbc0-ba43-4426-ab5b-a360e9463131")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D16")
 					(unit 1)
@@ -41696,7 +41696,7 @@
 			(uuid "9d3c8104-1064-4010-b8ac-9f2841c7b65a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R28")
 					(unit 1)
@@ -41784,7 +41784,7 @@
 			(uuid "fa495c3a-19fe-4a2a-af46-7c6031571340")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S15")
 					(unit 1)
@@ -41872,7 +41872,7 @@
 			(uuid "a4a3af6f-6272-406b-85ee-5740da816ef1")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S24")
 					(unit 1)
@@ -41960,7 +41960,7 @@
 			(uuid "848d7a3d-8d75-47ca-8ef1-18d6f118d7f7")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S14")
 					(unit 1)
@@ -42025,7 +42025,7 @@
 			(uuid "8f8b5392-9df7-47a6-9a55-8d69a2177810")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0134")
 					(unit 1)
@@ -42091,7 +42091,7 @@
 			(uuid "fc9d8542-40a9-4866-98a6-adef0ee3ab89")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR054")
 					(unit 1)
@@ -42157,7 +42157,7 @@
 			(uuid "9a18c2f8-86ef-4ff0-b63d-573d1a335b32")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR067")
 					(unit 1)
@@ -42236,7 +42236,7 @@
 			(uuid "c8bab000-beeb-4db2-b68a-6c9f7e40636e")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R2")
 					(unit 1)
@@ -42301,7 +42301,7 @@
 			(uuid "14deab0a-ed62-4cc2-977d-e8154f89c04f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR030")
 					(unit 1)
@@ -42366,7 +42366,7 @@
 			(uuid "3fb65afc-a48f-445b-a3ca-2ee9388df5f8")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR035")
 					(unit 1)
@@ -42431,7 +42431,7 @@
 			(uuid "14896593-ed1f-43ce-868a-f588258966f7")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0123")
 					(unit 1)
@@ -42496,7 +42496,7 @@
 			(uuid "7a88c6b9-96e3-4aea-a9f7-750b3ebc9978")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR044")
 					(unit 1)
@@ -42573,7 +42573,7 @@
 			(uuid "ba6053b8-1cbc-48ca-aa90-c3063f140038")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP17")
 					(unit 1)
@@ -42653,7 +42653,7 @@
 			(uuid "4f748d49-4154-4faf-8556-d9cb72bfb82b")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R22")
 					(unit 1)
@@ -42719,7 +42719,7 @@
 			(uuid "2497e5b4-ee1e-45b7-b524-f11b21fc0579")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR026")
 					(unit 1)
@@ -42797,7 +42797,7 @@
 			(uuid "967fd1d0-e95b-4191-b570-60703554a5b4")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D1")
 					(unit 1)
@@ -42862,7 +42862,7 @@
 			(uuid "d620cd94-45e7-4557-bddc-fe4a48e3216a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0104")
 					(unit 1)
@@ -42927,7 +42927,7 @@
 			(uuid "3ae894aa-995c-4180-9712-de3e05908afa")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0152")
 					(unit 1)
@@ -42994,7 +42994,7 @@
 			(uuid "d1bbf74b-79be-4fc4-bbd3-6cb2461ab11f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR010")
 					(unit 1)
@@ -43003,7 +43003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:TP4056")
+		(lib_id "OpenRemoteLib:TP4056")
 		(at 72.39 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43091,7 +43091,7 @@
 			(uuid "772a7599-9def-47ee-8e1b-40da5d885373")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U11")
 					(unit 1)
@@ -43167,7 +43167,7 @@
 			(uuid "279c86dd-e487-4a25-8251-6d38eaf7eaf1")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D12")
 					(unit 1)
@@ -43232,7 +43232,7 @@
 			(uuid "0e8ff238-64b3-4d59-872d-f90e2ac4e98d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR01")
 					(unit 1)
@@ -43311,7 +43311,7 @@
 			(uuid "5bb20478-2b66-4821-bfb6-2e36efd5fa9a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C18")
 					(unit 1)
@@ -43400,7 +43400,7 @@
 			(uuid "f6485b98-076a-4f51-869f-7e5c6cc47497")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S17")
 					(unit 1)
@@ -43488,7 +43488,7 @@
 			(uuid "19f681a0-2270-46d5-8de4-1a1ce22c6949")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S2")
 					(unit 1)
@@ -43573,7 +43573,7 @@
 			(uuid "70556631-0847-41d3-a7ef-74134ddb701a")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q5")
 					(unit 1)
@@ -43651,7 +43651,7 @@
 			(uuid "e5dd62c7-99f9-4021-8d2c-a43579453c09")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C17")
 					(unit 1)
@@ -43717,7 +43717,7 @@
 			(uuid "062542f7-a7cb-4bd6-9805-e230103d0636")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR052")
 					(unit 1)
@@ -43793,7 +43793,7 @@
 			(uuid "d8bd8695-2b3f-4b39-92e4-dc24d6d046d0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D14")
 					(unit 1)
@@ -43884,7 +43884,7 @@
 			(uuid "03d0c062-472a-4233-aee5-5e9896397d35")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "Q2")
 					(unit 1)
@@ -43962,7 +43962,7 @@
 			(uuid "459880bb-c2d3-47c8-8c9a-d7750ae79f9d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C12")
 					(unit 1)
@@ -44038,7 +44038,7 @@
 			(uuid "56cfe52a-7141-4f6d-8f39-afa6a00e4215")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D9")
 					(unit 1)
@@ -44103,7 +44103,7 @@
 			(uuid "11688289-df9e-4b09-b6e2-75e01c21cdb0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR020")
 					(unit 1)
@@ -44182,7 +44182,7 @@
 			(uuid "5277bf11-c8bf-4ba4-aaa0-cd3e0f74c64d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C2")
 					(unit 1)
@@ -44258,7 +44258,7 @@
 			(uuid "5faea220-4e75-427f-97a0-90f5f764e7f3")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R4")
 					(unit 1)
@@ -44346,7 +44346,7 @@
 			(uuid "dd986559-9335-4258-8ba7-76750bb5da1d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S23")
 					(unit 1)
@@ -44412,7 +44412,7 @@
 			(uuid "0549481d-86e4-400e-b3bf-bd4d9b647ad8")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR069")
 					(unit 1)
@@ -44477,7 +44477,7 @@
 			(uuid "e9fe7e0a-f0c6-4669-9a61-ebbb0f280e38")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0125")
 					(unit 1)
@@ -44557,7 +44557,7 @@
 			(uuid "9cb66423-35fb-4650-9347-f718556aebdd")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "R36")
 					(unit 1)
@@ -44633,7 +44633,7 @@
 			(uuid "432f7979-1119-4ff6-89a1-1b24dc34f7f8")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "D7")
 					(unit 1)
@@ -44642,7 +44642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "omoteLib:TCA8418")
+		(lib_id "OpenRemoteLib:TCA8418")
 		(at 133.35 238.76 0)
 		(mirror y)
 		(unit 1)
@@ -44776,7 +44776,7 @@
 			(uuid "2819de8d-24f6-41df-bca2-f01618c0575f")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U12")
 					(unit 1)
@@ -44852,7 +44852,7 @@
 			(uuid "469f2771-3203-428f-9dea-ca5ba3333ea0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP1")
 					(unit 1)
@@ -44940,7 +44940,7 @@
 			(uuid "95de7a51-ad15-4f48-b57b-d0beac7891d4")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S3")
 					(unit 1)
@@ -45019,7 +45019,7 @@
 			(uuid "f03ae822-04e0-403d-a6e0-c3bcb834a3af")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C4")
 					(unit 1)
@@ -45096,7 +45096,7 @@
 			(uuid "26a25c3d-e1c1-4273-8e27-4287550bd429")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP3")
 					(unit 1)
@@ -45184,7 +45184,7 @@
 			(uuid "0278e2c1-b59d-4255-b265-11cbb6853226")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "S6")
 					(unit 1)
@@ -45250,7 +45250,7 @@
 			(uuid "7ddd7d8e-cc58-459c-a284-671f74e31be0")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0103")
 					(unit 1)
@@ -45330,7 +45330,7 @@
 			(uuid "896c902e-4f82-4da3-bc12-325a6dbc2d62")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "C10")
 					(unit 1)
@@ -45396,7 +45396,7 @@
 			(uuid "e79b3a73-2514-462d-95cb-6841dacd6640")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR072")
 					(unit 1)
@@ -45462,7 +45462,7 @@
 			(uuid "d20db002-f7b4-4735-a83b-29f1059b064d")
 		)
 		(instances
-			(project "Omote"
+			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0111")
 					(unit 1)

@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Footprint" "omoteLib:MicroSD Slot TF-01A"
+	(property "Footprint" "OpenRemoteLib:MicroSD Slot TF-01A"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

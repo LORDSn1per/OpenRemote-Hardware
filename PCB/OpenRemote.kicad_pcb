@@ -274,7 +274,7 @@
 	(net 135 "unconnected-(U7-IO3-Pad15)")
 	(net 136 "Net-(D15-K)")
 	(net 137 "/LCD_NRST")
-	(footprint "omoteLib:LED_5mm_Side_Mount"
+	(footprint "OpenRemoteLib:LED_5mm_Side_Mount"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "028982f1-ec49-4f15-a3a1-367832d00d71")
@@ -303,7 +303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:LED_5mm_Side_Mount"
+		(property "Footprint" "OpenRemoteLib:LED_5mm_Side_Mount"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -358,7 +358,7 @@
 		(property ki_fp_filters "LED*3.0mm*IRBlack*")
 		(path "/90aec77c-d13a-4870-bde0-b618e44740dc")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -5.6 0)
@@ -866,7 +866,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/dd3a6473-8878-422f-b0d5-c5a66e21d137")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 0.85)
@@ -1164,7 +1164,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/728cce4e-a9d8-4e63-a3e4-bb8b3c4b6e43")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -1307,7 +1307,7 @@
 			)
 		)
 	)
-	(footprint "omoteLib:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+	(footprint "OpenRemoteLib:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "06c0ec99-fe4f-4c5e-9492-8f7abb1bea3e")
 		(at 224.9 113.5 90)
@@ -1335,7 +1335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+		(property "Footprint" "OpenRemoteLib:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1390,7 +1390,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/803e93a9-1b32-4535-84e8-abc21e024727")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.085 -4.36)
@@ -1791,7 +1791,7 @@
 		)
 		(path "/de66e323-635a-44df-b9f3-8fbbcced7485")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 2.56)
@@ -2160,7 +2160,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b01cc40-4fbc-4696-b573-ea612ac839ef")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -2386,7 +2386,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9b8ad16c-ec57-41b3-aac9-48733de0cdc8")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -2612,7 +2612,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/26b862c6-d33f-4483-a968-b85e28ae8541")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -2838,7 +2838,7 @@
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/873b38e2-2a21-4d19-a0cb-4374077252ed")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -3138,7 +3138,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8371029-1d81-478d-833b-aa0d79bcc94b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -3364,7 +3364,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5d818a81-71ff-4f40-8854-04efda688b48")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -3590,7 +3590,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7e3a9f9d-89ec-484b-addc-306e8b6ec76d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -3816,7 +3816,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/05f6faa8-6680-4025-987b-f7470caaa06c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -4042,7 +4042,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/e63a7042-d9f9-4028-9922-334a3823662e")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -4322,7 +4322,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/32162f8c-d7c7-4ff9-b725-d4bfcc82e606")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -4622,7 +4622,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/d37a8ee6-666e-4631-b7e2-3fa1e1d2bc47")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -4902,7 +4902,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ad087e21-826a-44a7-a107-e57a8482f948")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -5045,7 +5045,7 @@
 			)
 		)
 	)
-	(footprint "omoteLib:XDCR_LIS3DHTR"
+	(footprint "OpenRemoteLib:XDCR_LIS3DHTR"
 		(layer "F.Cu")
 		(uuid "230440db-a366-4510-924d-f45962ca2d45")
 		(at 92.375 85.75 90)
@@ -5173,7 +5173,7 @@
 		)
 		(path "/55d86592-c3da-4fa7-ba6d-9e58f1452184")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.99 -1.5)
@@ -5572,7 +5572,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e11600f-9c01-416f-a697-9d6fd4a22eef")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -5798,7 +5798,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/acf4a0e8-75ce-47c3-ad8d-31169c230e67")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -6024,7 +6024,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1b3fda03-d809-4e52-844e-4f407ae6b70c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -6272,7 +6272,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/87d92ff7-1d34-4936-b231-5a739822d711")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -6552,7 +6552,7 @@
 		(property ki_fp_filters "SOT?363*")
 		(path "/e77fa5e4-813c-47cd-b865-7def2de4b970")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -6842,7 +6842,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c29535bb-f381-478e-af33-1d9231533cd6")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -6970,7 +6970,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/db84f1bb-397e-4475-98f1-f0781c7bb95d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -7196,7 +7196,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c620c8b1-17c7-4e80-b5b9-16ed43a49ed0")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -7422,7 +7422,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/519127bc-121b-4c2d-8973-f6324ab11cbf")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -7649,7 +7649,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/8903cbd7-fa59-47b5-b5b5-bfae6dc54cd1")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -7921,7 +7921,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/773ad0b3-3a2b-49b6-a717-e418fc2a6884")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8147,7 +8147,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2381f30e-1db4-4a14-a472-3bcd53674276")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -8373,7 +8373,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8e440bb2-2e8c-4bb6-b3dd-a96bb2312919")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -8599,7 +8599,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e36d967-a281-4519-861a-ac5e56c8450d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8825,7 +8825,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e2f30f30-d943-4283-8a16-494d8f843437")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -9054,7 +9054,7 @@
 		(property ki_fp_filters "ESP32?S3?WROOM?1*")
 		(path "/4358762a-41c2-40ab-8191-a044aec1cdda")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 9.2 -12.9)
@@ -9992,7 +9992,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/57c0a9e3-833c-4306-b51b-85a37de45210")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -10219,7 +10219,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9d02d3d6-a6b8-416a-83d0-7a905d6b04ae")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -10681,7 +10681,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/904576d3-e109-4bf0-9687-74c68d45d939")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -10907,7 +10907,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eb3897a4-4528-470d-9270-d6b5c1f224ba")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -11133,7 +11133,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/573c061a-c39d-4cef-90b0-a89c2632823a")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -11359,7 +11359,7 @@
 		(property ki_fp_filters "SOT?363*")
 		(path "/c0fc6e06-2791-4d4e-95a0-7800e9deb62c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -11669,7 +11669,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/7fe544dc-c01f-421a-b074-3bbcf714c074")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -11917,7 +11917,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/45d63dd8-0ff3-485f-898e-e99eb95cd53d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -12354,7 +12354,7 @@
 			(uuid "299dc0c1-5c29-4cd1-b7d9-0cce8367cfa3")
 		)
 	)
-	(footprint "omoteLib:TFT_2.83IN_240X320_50PIN"
+	(footprint "OpenRemoteLib:TFT_2.83IN_240X320_50PIN"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "5a621486-0b9c-4ec0-862b-29bd1b417bb9")
@@ -12383,7 +12383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "omoteLib:TFT_2.83IN_240X320_50PIN"
+		(property "Footprint" "OpenRemoteLib:TFT_2.83IN_240X320_50PIN"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12438,7 +12438,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/91bb894d-766b-45a5-9f77-face96a8d77b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(fp_line
 			(start 25.1 -32)
 			(end -25.1 -32)
@@ -14392,7 +14392,7 @@
 		)
 		(path "/5c99bb85-3dc9-4457-8ccc-6894f2817454")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -14702,7 +14702,7 @@
 		(property ki_fp_filters "SOIC*3.9x9.9mm*P1.27mm*")
 		(path "/0bc86fcf-e0f1-445f-9b25-a545e0e2a159")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 5.06)
@@ -15029,7 +15029,7 @@
 			)
 		)
 	)
-	(footprint "omoteLib:Heimdall vertical"
+	(footprint "OpenRemoteLib:Heimdall vertical"
 		(layer "F.Cu")
 		(uuid "5d2b74c8-ea79-4f25-99fd-c78691bddaa1")
 		(at 55.4 116.3 90)
@@ -15057,7 +15057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:Heimdall vertical"
+		(property "Footprint" "OpenRemoteLib:Heimdall vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15112,7 +15112,7 @@
 		(property ki_fp_filters "Vishay*MOLD*")
 		(path "/529c04a8-1d64-4ba5-81a9-2a0c96612e2c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.4 -1.505)
@@ -15474,7 +15474,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/099165d1-c181-4acb-9f72-a6b013d975aa")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 0.735)
@@ -15699,7 +15699,7 @@
 		)
 		(path "/d043fd02-719d-4cd5-bc21-87dc1e6fbc85")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 1.135)
@@ -16048,7 +16048,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/aeefbc4b-7da1-4b29-af49-bef130978ac6")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -16274,7 +16274,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/865b19e8-d6eb-46b8-b5a1-10f62278a315")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -16402,7 +16402,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ca0cbfab-66dd-432f-9638-acc364c57130")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -16530,7 +16530,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8b30abbf-db0a-42f1-ac04-86e9c824179b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -16673,7 +16673,7 @@
 			)
 		)
 	)
-	(footprint "omoteLib:MicroSD Slot TF-01A"
+	(footprint "OpenRemoteLib:MicroSD Slot TF-01A"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "777d6000-bc3d-40a8-a9eb-965ab0603f90")
@@ -16701,7 +16701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:MicroSD Slot TF-01A"
+		(property "Footprint" "OpenRemoteLib:MicroSD Slot TF-01A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16753,7 +16753,7 @@
 		(property ki_fp_filters "microSD*")
 		(path "/b94630c3-4b4c-4fb2-8e49-a2d6e0f13662")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7.4 -5)
@@ -17216,7 +17216,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6432c9be-6e5f-48d3-85b1-7fffc690d124")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -17442,7 +17442,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7759e37d-3d78-4643-b841-aa5aa7ac371d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -17670,7 +17670,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/a06bee56-ccf2-491b-bfc7-7a30b961770c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -17797,7 +17797,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/98e5b6db-4f41-44cb-ab4d-a78ce1e688b2")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -18045,7 +18045,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/face654e-0a1c-4f1e-afcf-3d146a97a87b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -18271,7 +18271,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8d90c79d-2eca-4fe1-927e-6639aa330d89")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -18497,7 +18497,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c80622bb-d3db-4920-9a6b-3eea6e201de7")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -18723,7 +18723,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fe352a6e-749f-4af7-ba31-da5a8ed6b64e")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -18949,7 +18949,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8d93649d-8345-4346-b771-505f48008074")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -19175,7 +19175,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b4b3f2e5-a3ca-4df1-acde-e71e5d1e12d1")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -19401,7 +19401,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/05d52f92-1429-4f4d-b136-44fec3e76181")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -19627,7 +19627,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/a35716eb-f658-495d-afc0-218b073578aa")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0 -1.56)
@@ -19909,7 +19909,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/79481c15-7408-400a-903d-ed861a9008fa")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -20035,7 +20035,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/344f1a86-9577-4eb9-8a48-bda4fe808df4")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -20261,7 +20261,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/596b3b38-e767-4842-ba0a-1bbe67102e8e")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -20487,7 +20487,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a0d9efb4-39a0-4032-93e5-19e0f1c59821")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -20888,7 +20888,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/885c377e-7c82-4de5-841b-480084fa7f04")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 0.99)
@@ -21190,7 +21190,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/5455ea8a-416d-4052-996a-d1906db41883")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -21419,7 +21419,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6bf30ce0-dd05-47c1-96b0-54b9e36ffd1f")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -21545,7 +21545,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2434c95-f67e-4c26-88b8-db447430afd9")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -22076,7 +22076,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/612ed4fd-d287-4214-b57c-fd708b0d3e5d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -22302,7 +22302,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e649a527-7db2-4ba9-835d-4da717715dfe")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -22528,7 +22528,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8bf6e1be-ec40-4553-87b9-58ff70e538a4")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 -1.33)
@@ -22808,7 +22808,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a743e464-fee1-4465-9138-e4b7206dcb47")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -23034,7 +23034,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ee16167b-3176-4bc2-9d7b-4a0776cd0c29")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -23260,7 +23260,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3c063089-e5c3-49dd-b565-82033885ed7b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -23486,7 +23486,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4bc10c50-b546-4355-975f-28c4234b9e0e")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -23712,7 +23712,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/779633da-034a-4657-8ca0-d05a1feaae76")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -23938,7 +23938,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/639b8fa0-3504-4b1f-a1b5-acaf58a6c1ae")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -24218,7 +24218,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d4cd5acc-ee5b-4e86-9652-a4c5acf49a92")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -24444,7 +24444,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3106870e-59ec-49f1-8128-7f3328e4fb16")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -24671,7 +24671,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/832f67f3-c47f-4cf6-b90f-6b0308917c33")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -24899,7 +24899,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a1e4b726-6004-4029-98fe-8d20fffe9312")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -25124,7 +25124,7 @@
 		)
 		(path "/f6bcd8bc-2255-477e-91cd-accbe06488c1")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.11 -2.11)
@@ -25690,7 +25690,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e78515a7-58d6-4012-93ce-121808a27a12")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -25916,7 +25916,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7d99a123-7e31-48f0-8a54-46fbc0ead4db")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -26142,7 +26142,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b3eefe83-5a59-432a-a9b7-e3ff88f3d227")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -26368,7 +26368,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3d67dd41-105a-4434-86cc-19d13b32c514")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -26594,7 +26594,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/181a1110-9d86-4229-b903-7b35a7721451")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -26831,7 +26831,7 @@
 		)
 		(path "/4f74885d-7399-4ea9-97f3-4939b16ff5f1")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.25 -2.75)
@@ -27426,7 +27426,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2b9da5a7-92e2-471c-bb8f-34679960685b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -27652,7 +27652,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/55a890ee-28d8-4ecd-90b2-410e2162e38d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -27878,7 +27878,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d7d89687-b47a-4802-8350-c4c282b2356d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -28021,7 +28021,7 @@
 			)
 		)
 	)
-	(footprint "omoteLib:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+	(footprint "OpenRemoteLib:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "F.Cu")
 		(uuid "ed154c17-7f27-4787-a05a-0859bc96f71a")
 		(at 241 102 90)
@@ -28049,7 +28049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "omoteLib:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "OpenRemoteLib:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28104,7 +28104,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/77007ba6-7dfe-46d3-b1b5-a83a78e61f11")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.7 -1.9)
@@ -28544,7 +28544,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7fa809a6-5b46-42f8-a8f3-252e88be637e")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -28771,7 +28771,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/710cdae8-0dd8-4e5f-844e-3d6ebab7e492")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -28999,7 +28999,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/21eacef8-37bc-4b4c-acd3-1747cea54596")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -29125,7 +29125,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/75f38a50-2b82-4513-bfa2-2d64bf243e20")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -29351,7 +29351,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9569bb92-35aa-4731-bad0-3b6931cbc3e2")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -29577,7 +29577,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/69ddd0a6-55a4-452c-953c-629be9c81fdb")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -29857,7 +29857,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3c100e28-deed-4077-b699-b84ac60c6fce")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -30083,7 +30083,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a4e897f3-da89-4210-b4a6-d552e78df45d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -30315,7 +30315,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c65bc4fa-4158-4933-b8ec-fb562b6213b6")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -30558,7 +30558,7 @@
 		)
 		(path "/d6594cc6-f7ca-48b6-87ac-033ccacd46cd")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -31169,7 +31169,7 @@
 		)
 		(path "/e35fd64a-94a5-4224-865e-5b8aafe6116a")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.25 2.75)
@@ -31781,7 +31781,7 @@
 		)
 		(path "/f8007f24-7f7f-489f-8315-9a32434b5b79")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -32383,7 +32383,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/db48595d-0073-49c7-8b04-a4da5be99f5d")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -32518,7 +32518,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8c7133ce-575c-4052-a79c-68f12904def2")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -32761,7 +32761,7 @@
 		)
 		(path "/fb6a7143-1c9f-4b56-b501-ef08de64194c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -33363,7 +33363,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/38e345fb-f088-4db6-bf71-eb5c305b8c32")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -33498,7 +33498,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f7f8be2d-d3bd-46fd-bf7f-fa0c180f6259")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -33643,7 +33643,7 @@
 		)
 		(path "/e3b9bcaa-84ad-4908-a684-95ad7dc4e8a1")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -34246,7 +34246,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/13a8ffd8-4237-479c-ae7f-192cc1951b50")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -34390,7 +34390,7 @@
 		)
 		(path "/813c8347-3074-4c94-bc97-03597daa6f90")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -35106,7 +35106,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/796530ea-cec3-43c4-87a7-9ca55979b4fe")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -35361,7 +35361,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0e11abdc-66e8-4510-bfe6-19d0673b6d8c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -35506,7 +35506,7 @@
 		)
 		(path "/6d6daa2b-6a5a-40d0-a3d0-3a3d79b0d39e")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -36108,7 +36108,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e91e90df-0dfc-4711-9e83-87c901051ea1")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -36465,7 +36465,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/6422e773-2814-4596-8b3f-dad1bec51d7f")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -36599,7 +36599,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3ff72ff4-0022-439d-ae59-de70909d301b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -36734,7 +36734,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c0ce2582-d4af-4a21-8e25-07fdef4e4495")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -36967,7 +36967,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9e513f98-7ee4-4630-9aab-19256870876c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -37112,7 +37112,7 @@
 		)
 		(path "/69c6608e-e56f-4694-a914-40d9a908cf51")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -37714,7 +37714,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fb27c01e-bf1d-4e74-863f-08c849084043")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -37859,7 +37859,7 @@
 		)
 		(path "/91514723-9dbd-4d61-bbb6-6e562fbfa443")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -38471,7 +38471,7 @@
 		)
 		(path "/d5a88d62-ebe9-48be-a0da-a0385c118aca")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -39083,7 +39083,7 @@
 		)
 		(path "/52f5be9b-b92b-4179-a8ae-3e49ff4f1384")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -39695,7 +39695,7 @@
 		)
 		(path "/ef0915fc-5a52-45a8-b3b9-68c30fc2bf61")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -41464,7 +41464,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/334c128e-3b37-484b-8b5a-bbc75ee92dc5")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -41609,7 +41609,7 @@
 		)
 		(path "/37662cb4-9e57-4394-9cb2-f6ed9f5b90a8")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -42211,7 +42211,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b2baf4e7-2fa1-4217-af71-2a7603aaffc6")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -42346,7 +42346,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6b6d7178-1740-48fa-b6b6-0d82dd30c17e")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -42601,7 +42601,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a178a638-3e52-4824-b4fe-5be75d074e32")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -42834,7 +42834,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a14691e1-0ef1-4191-97e8-1de172df1fe6")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -42969,7 +42969,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d4560d85-3be7-49fa-8c73-4ae471e8b127")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -43224,7 +43224,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/560a33d5-e512-43a5-8b5e-2a12d3f45e1c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -43479,7 +43479,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e173f144-8193-4652-a0ae-b673af69efd7")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -43734,7 +43734,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6e07fd36-534a-4045-9bf2-27e6ef83cde3")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -43967,7 +43967,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f402e0e6-b7fb-4cd0-b44b-7f322e7a3642")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -44222,7 +44222,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e70f4e43-8169-4de8-8121-0205cf06a3da")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -44487,7 +44487,7 @@
 		)
 		(path "/d66c83da-7161-4195-8e2f-6447319fcff7")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -45089,7 +45089,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/337aa46e-e142-4608-b216-1ee9bfe42453")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -45344,7 +45344,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ae48553b-ec5d-46db-8434-45f365b8dcf4")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -45479,7 +45479,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bc65afa3-62db-45fa-a22d-61dd99c94065")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -45744,7 +45744,7 @@
 		)
 		(path "/7bea0eb1-9a78-4ec6-940f-50cee8abec1c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -46506,7 +46506,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/548d0d2d-e650-4373-a331-b61170f87f5c")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -46641,7 +46641,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/1f51bd20-b219-499f-9b92-3372f2cd0163")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -46776,7 +46776,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0268773a-c0ce-4492-8c30-c246ee9f216a")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -46921,7 +46921,7 @@
 		)
 		(path "/691457df-23be-4987-8515-5fd90bf9d090")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -47533,7 +47533,7 @@
 		)
 		(path "/3ebf4334-75aa-4459-8660-55f340fb977a")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -48135,7 +48135,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3ea7830e-7715-4bf8-9054-7c86e4c556f7")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -48280,7 +48280,7 @@
 		)
 		(path "/6110143e-49da-42ac-b0a7-dd38f2195790")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -48882,7 +48882,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/375b54eb-2c17-4b12-aac8-03180a1fd3ee")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -49115,7 +49115,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a6144d50-98b6-4ede-a271-fd6751ffaade")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -49348,7 +49348,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7f2dd7cd-d45c-4fab-913d-c26fac594e73")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -49677,7 +49677,7 @@
 		)
 		(path "/1d223ffc-67ab-48a7-9fa4-07cc38400490")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -50279,7 +50279,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/150fe137-7336-49f5-ae62-201031b2e6f0")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -50544,7 +50544,7 @@
 		)
 		(path "/63d4a71a-e4fe-43b7-a9c8-0fa3895ae2e4")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -51146,7 +51146,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/76c59451-8fec-4b91-87c9-699452131887")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -51379,7 +51379,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8b6bcea1-1819-408f-9883-f62bc3a2b70b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -51622,7 +51622,7 @@
 		)
 		(path "/2a035341-7e05-4904-9c1c-e61a8e63b65b")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -52224,7 +52224,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/49c45969-3358-4760-9250-e73e422af822")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -52369,7 +52369,7 @@
 		)
 		(path "/cc5271c6-6d2d-43df-b910-afe9c3f82ec8")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -52981,7 +52981,7 @@
 		)
 		(path "/65814d44-b548-4f98-b134-7c904da12ac5")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -53583,7 +53583,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8eeb2a33-1b46-47ce-961d-01050ec31662")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -53718,7 +53718,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/1717d12d-f4cb-4321-b6c4-a67569c0f0c2")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -53853,7 +53853,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/261179da-223d-4767-b6dd-57808898beca")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -53998,7 +53998,7 @@
 		)
 		(path "/9251cea5-4250-4e14-9904-bebaef524b82")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -54600,7 +54600,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8eb17290-1da1-4935-9ff8-1cabf0c53251")
 		(sheetname "Root")
-		(sheetfile "Omote.kicad_sch")
+		(sheetfile "OpenRemote.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
