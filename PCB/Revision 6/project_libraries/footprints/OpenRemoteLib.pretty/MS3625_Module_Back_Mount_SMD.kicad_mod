@@ -195,4 +195,15 @@
 			)
 		)
 	)
+	(model "${KIPRJMOD}/project_libraries/3D-models/MS3625_Circular_Microphone_Module_No_Headers.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
