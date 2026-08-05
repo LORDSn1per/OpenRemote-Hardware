@@ -6,9 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "OpenRemote - Open Universal Remote")
-		(date "2024-12-22")
-		(rev "5")
-		(company "Maximilian Kern")
+		(date "5 Aug 2026")
+		(rev "6")
+		(company "Phillip Carlson")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Male"
