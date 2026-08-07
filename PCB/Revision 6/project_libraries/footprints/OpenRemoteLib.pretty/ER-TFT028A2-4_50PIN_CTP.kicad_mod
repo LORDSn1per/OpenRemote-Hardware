@@ -1,4 +1,4 @@
-(footprint "TFT_2.83IN_240X320_50PIN"
+(footprint "ER-TFT028A2-4_50PIN_CTP"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			(justify left)
 		)
 	)
-	(property "Value" "Conn_01x50"
+	(property "Value" "ER-TFT028A2-4_CTP"
 		(at -6.979 14.22 0)
 		(layer "F.Fab")
 		(uuid "a90ad96b-5715-4880-affc-a4f4f48e743b")
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-TFT028A2-4_Datasheet.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "EastRising ER-TFT028A2-4 2.8-inch 240x320 IPS LCD, 50-pin 0.5mm FPC, capacitive-touch variant"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -1764,6 +1764,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/project_libraries/3D-models/ER-TFT028-4.2_Folded.step"
+		(offset
+			(xyz 0 2.7 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
 		)
 	)
 )

@@ -738,7 +738,16 @@
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "description": "EastRising ER-TFT028-4.2 capacitive-touch LCD assembly",
+        "name": "EastRising Capacitive LCD"
+      },
+      {
+        "description": "Original Adafruit 2.8-inch LCD assembly",
+        "name": "Original Adafruit LCD"
+      }
+    ]
   },
   "sheets": [
     [

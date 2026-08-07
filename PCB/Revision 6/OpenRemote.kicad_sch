@@ -3127,6 +3127,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OpenRemoteDisplay:ER-CON06HB-1_TOUCH"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ER-CON06HB-1_TOUCH"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "OpenRemoteLib:ER-CON06HB-1_Compatible_1x06_P0.50mm_BottomContact"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.buydisplay.com/download/connector/ER-CON06HB-1.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "6-pin 0.5 mm bottom-contact FPC connector for optional capacitive touch panel"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ER-CON06HB-1_TOUCH_0_1"
+				(rectangle
+					(start -1.27 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ER-CON06HB-1_TOUCH_1_1"
+				(pin passive line
+					(at -5.08 6.35 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 3.81)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.81)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name "TP_NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 3.81)
+					(name "nINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -6.35 0)
+					(length 3.81)
+					(name "+VSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OpenRemoteLib:Conn_01x50"
 			(pin_names
 				(offset 1.016)
@@ -15148,6 +15335,12 @@
 		(uuid "44413003-f373-4c91-a19a-bf84d75955ed")
 	)
 	(junction
+		(at 354.33 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "446a2a10-fe94-43a1-a985-d2e426d1e962")
+	)
+	(junction
 		(at 250.19 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15442,12 +15635,6 @@
 		(uuid "9d01d935-5166-4ac5-8e28-130bcf2334c6")
 	)
 	(junction
-		(at 280.67 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f532118-0331-4068-b380-335c3dfd8aee")
-	)
-	(junction
 		(at 143.51 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15482,6 +15669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac3f8837-86af-4092-acb0-893d036a9dee")
+	)
+	(junction
+		(at 378.46 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3ff575-e6ee-4bc8-8656-c74ff6ddd0ba")
 	)
 	(junction
 		(at 52.07 104.14)
@@ -15658,6 +15851,12 @@
 		(uuid "d8a40cf2-c155-4833-bddc-18cdd3b99e75")
 	)
 	(junction
+		(at 280.67 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcbc7c0d-2c72-4905-927a-58c2f7015bf9")
+	)
+	(junction
 		(at 223.52 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15790,6 +15989,10 @@
 	(no_connect
 		(at 377.19 38.1)
 		(uuid "14647a75-4d88-46b1-8f3f-518615ed5f13")
+	)
+	(no_connect
+		(at 365.76 92.71)
+		(uuid "15ef8681-73ae-4e0c-9bc7-e1701759c504")
 	)
 	(no_connect
 		(at 383.54 191.77)
@@ -16294,6 +16497,16 @@
 			(type default)
 		)
 		(uuid "0ce315e7-c33b-4153-b804-922bcb60a79f")
+	)
+	(wire
+		(pts
+			(xy 365.76 82.55) (xy 354.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d256ce3-9788-4e4d-8333-99e02abe0b08")
 	)
 	(wire
 		(pts
@@ -17117,6 +17330,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 87.63) (xy 365.76 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2642c9-6c41-47f1-8e8f-657d2dad57e8")
+	)
+	(wire
+		(pts
 			(xy 344.17 40.64) (xy 330.2 40.64)
 		)
 		(stroke
@@ -17617,7 +17840,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 102.87) (xy 373.38 104.14)
+			(xy 354.33 102.87) (xy 354.33 105.41)
 		)
 		(stroke
 			(width 0)
@@ -18245,6 +18468,16 @@
 		)
 		(uuid "575fc507-4351-45c6-b307-a1d53cc2d334")
 	)
+	(wire
+		(pts
+			(xy 351.79 95.25) (xy 365.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57eaee95-54cb-46b1-b9f9-27b5e2f432e4")
+	)
 	(polyline
 		(pts
 			(xy 293.37 158.75) (xy 172.72 158.75)
@@ -18414,6 +18647,16 @@
 			(type default)
 		)
 		(uuid "5e26bdaa-864c-4078-bdf8-b86121457f77")
+	)
+	(wire
+		(pts
+			(xy 378.46 222.25) (xy 378.46 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5117b8-8df7-4efe-a5ff-424aa6d786a2")
 	)
 	(wire
 		(pts
@@ -18614,6 +18857,16 @@
 			(type default)
 		)
 		(uuid "67be4790-8893-433c-9504-bb2d17c0a776")
+	)
+	(wire
+		(pts
+			(xy 280.67 69.85) (xy 280.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c2d49a-bf3e-4fc2-8c48-45bbde0908ad")
 	)
 	(wire
 		(pts
@@ -19367,6 +19620,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 69.85) (xy 280.67 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b77658-12b1-4b73-8bd9-a0abab84cdf9")
+	)
+	(wire
+		(pts
 			(xy 76.2 245.11) (xy 76.2 250.19)
 		)
 		(stroke
@@ -19537,7 +19800,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 102.87) (xy 377.19 102.87)
+			(xy 354.33 102.87) (xy 377.19 102.87)
 		)
 		(stroke
 			(width 0)
@@ -19715,6 +19978,16 @@
 		)
 		(uuid "97899244-c1d4-4d89-b4f2-10af053da4a7")
 	)
+	(wire
+		(pts
+			(xy 354.33 82.55) (xy 354.33 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b7a6cb-60f2-47ec-bcc0-9d6395eac555")
+	)
 	(polyline
 		(pts
 			(xy 297.18 19.05) (xy 297.18 76.2)
@@ -19774,6 +20047,16 @@
 			(type dash)
 		)
 		(uuid "987a81fb-da49-4675-83ec-fd665193615f")
+	)
+	(wire
+		(pts
+			(xy 351.79 90.17) (xy 365.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9960c3d3-8246-4f9f-9393-108cec6c762e")
 	)
 	(polyline
 		(pts
@@ -19974,6 +20257,16 @@
 			(type default)
 		)
 		(uuid "9f548fd7-4454-4627-937b-90ec93795890")
+	)
+	(wire
+		(pts
+			(xy 351.79 85.09) (xy 365.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc789d8-dbde-451f-b535-290318e10f3b")
 	)
 	(wire
 		(pts
@@ -20457,6 +20750,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 73.66) (xy 285.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2e55a6-721b-4578-b3b1-92e4cd3e032c")
+	)
+	(wire
+		(pts
 			(xy 207.01 58.42) (xy 207.01 55.88)
 		)
 		(stroke
@@ -20584,6 +20887,16 @@
 			(type default)
 		)
 		(uuid "b5489b1b-dc21-49e3-be70-38ea206d1b40")
+	)
+	(wire
+		(pts
+			(xy 378.46 224.79) (xy 383.54 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b559a803-d3d2-4910-9997-a6ff5373ea70")
 	)
 	(wire
 		(pts
@@ -20777,7 +21090,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 224.79) (xy 383.54 224.79)
+			(xy 365.76 224.79) (xy 378.46 224.79)
 		)
 		(stroke
 			(width 0)
@@ -21204,16 +21517,6 @@
 			(type default)
 		)
 		(uuid "cc2172ab-6c26-4132-bc6a-f2265c9ffd90")
-	)
-	(wire
-		(pts
-			(xy 280.67 73.66) (xy 280.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc65e6ad-cef8-41f6-8848-f724913cb8c3")
 	)
 	(wire
 		(pts
@@ -22307,16 +22610,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 73.66) (xy 285.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f65da9-a910-45d5-9a7a-80efee962814")
-	)
-	(wire
-		(pts
 			(xy 280.67 215.9) (xy 281.94 215.9)
 		)
 		(stroke
@@ -22734,16 +23027,6 @@
 			(justify left bottom)
 		)
 		(uuid "7e7c162a-d0c8-425e-b033-b8e6820cba4c")
-	)
-	(label "TP_NRST"
-		(at 368.3 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89fe8538-b42a-4fab-976b-371a6b0226bc")
 	)
 	(label "+VSW"
 		(at 344.17 207.01 0)
@@ -23358,6 +23641,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "+VSW"
+		(shape input)
+		(at 351.79 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36e4b650-45d5-452b-b991-6c36dd36b785")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -24249,6 +24556,30 @@
 			)
 		)
 	)
+	(global_label "TP_NRST"
+		(shape input)
+		(at 378.46 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89fe8538-b42a-4fab-976b-371a6b0226bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.492 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "USB_TXD"
 		(shape input)
 		(at 146.05 40.64 0)
@@ -24342,6 +24673,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 351.79 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90addceb-dbad-4f1c-b557-85839ab50729")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.2972 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -24705,6 +25060,30 @@
 			)
 		)
 	)
+	(global_label "TP_NRST"
+		(shape input)
+		(at 351.79 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf12bdec-afb9-40c0-ae21-9579241c59e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 343.535 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DTR"
 		(shape input)
 		(at 213.36 86.36 0)
@@ -24923,17 +25302,17 @@
 	)
 	(global_label "MIC_VDD"
 		(shape output)
-		(at 280.67 71.12 0)
+		(at 292.1 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d135a39c-9ef8-445c-835f-b5be4d52f34d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.5776 71.12 0)
+			(at 281.1924 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24941,7 +25320,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -25062,6 +25441,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 351.79 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d743a236-57db-4508-9899-35828073359c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.2367 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -30675,6 +31078,85 @@
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "TP22")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 350.52 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3917f603-ee71-4121-ae47-932c1f17de52")
+		(property "Reference" "LCD2"
+			(at 353.06 260.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EastRising ER-TFT028-4.2 capacitive LCD"
+			(at 353.06 262.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenRemoteLib:ER-TFT028-4.2_MECHANICAL"
+			(at 350.52 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.buydisplay.com/2-8-inch-240x320-ips-tft-lcd-display-panel-optional-touch-panel-wide-view"
+			(at 350.52 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mechanical-only model selector for the EastRising capacitive LCD"
+			(at 350.52 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "OpenRemote"
+				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
+					(reference "LCD2")
+					(unit 1)
+					(variant
+						(name "Original Adafruit LCD")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -39894,7 +40376,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 373.38 104.14 0)
+		(at 354.33 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39904,7 +40386,7 @@
 		(dnp no)
 		(uuid "8e1d97e5-0cf6-4452-906a-25c69fea6bdf")
 		(property "Reference" "#PWR0135"
-			(at 373.38 110.49 0)
+			(at 354.33 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39915,7 +40397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 370.586 101.346 0)
+			(at 350.012 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39925,7 +40407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 104.14 0)
+			(at 354.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39936,7 +40418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 104.14 0)
+			(at 354.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39947,7 +40429,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 373.38 104.14 0)
+			(at 354.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40704,7 +41186,7 @@
 		(dnp no)
 		(uuid "91bb894d-766b-45a5-9f77-face96a8d77b")
 		(property "Reference" "J2"
-			(at 382.27 101.6 0)
+			(at 387.604 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46793,6 +47275,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 350.52 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "d485add9-9683-414a-b40d-f558968fea20")
+		(property "Reference" "LCD1"
+			(at 353.06 252.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Original Adafruit LCD assembly"
+			(at 353.06 255.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenRemoteLib:Adafruit_280QV10_MECHANICAL"
+			(at 350.52 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2770/SPEC-CH280QV10-CT_Rev.D.pdf"
+			(at 350.52 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mechanical-only model selector for the original Adafruit LCD"
+			(at 350.52 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "OpenRemote"
+				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
+					(reference "LCD1")
+					(unit 1)
+					(variant
+						(name "Original Adafruit LCD")
+						(dnp no)
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 327.66 198.12 270)
 		(mirror x)
@@ -49887,6 +50448,97 @@
 			(project "OpenRemote"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenRemoteDisplay:ER-CON06HB-1_TOUCH")
+		(at 370.84 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed17148b-d4d9-4bf8-a07b-057f7a80ad30")
+		(property "Reference" "J6"
+			(at 377.952 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ER-CON06HB-1_TOUCH"
+			(at 388.366 84.836 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OpenRemoteLib:ER-CON06HB-1_Compatible_1x06_P0.50mm_BottomContact"
+			(at 370.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.buydisplay.com/download/connector/ER-CON06HB-1.pdf"
+			(at 370.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-pin 0.5 mm bottom-contact FPC connector for optional capacitive touch panel"
+			(at 370.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac2b33c6-af57-46fc-bc2f-5141918e8a4c")
+		)
+		(pin "2"
+			(uuid "2db316cc-7309-4e19-9bbe-286e9914db2c")
+		)
+		(pin "3"
+			(uuid "a6632f12-4884-4189-9e75-1fb018fa3cbd")
+		)
+		(pin "4"
+			(uuid "4444f906-b61b-49ba-8738-0e81c9ecd964")
+		)
+		(pin "5"
+			(uuid "4c44ed2b-f460-435a-8b6c-45b07ac88e28")
+		)
+		(pin "6"
+			(uuid "4d92cc65-2e31-4520-b763-44c3ece8df58")
+		)
+		(instances
+			(project "OpenRemote"
+				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
+					(reference "J6")
 					(unit 1)
 				)
 			)
