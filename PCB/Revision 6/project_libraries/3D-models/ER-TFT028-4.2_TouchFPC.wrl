@@ -1,0 +1,108 @@
+#VRML V2.0 utf8
+
+# Corrected capacitive-touch FPC for the BuyDisplay/EastRising
+# ER-TFT028-4.2 assembly used by OpenRemote Rev6.
+#
+# The LCD end is fixed to the very bottom of the display at local Y=-34.65 mm,
+# folds down to the PCB rear-side plane, then runs flat toward J6.  The shorter
+# real cable is trimmed at the connector end (not at the LCD end), stopping at
+# the brown latch instead of protruding past the white connector body.
+#
+# Dimensions (millimetres):
+#   LCD-bottom to FPC tip:  28.03 planar span
+#   complete flex width:    3.50
+#   LCD-side run:           3.50 wide x 23.50 long
+#   J6 insertion tongue:    3.50 wide x 4.53 long
+#   cable thickness:        0.12
+#   LCD-to-rear bend/drop:   5.60 high
+#   connector stiffener:     3.50 wide x 4.53 long
+#   six contacts:           0.50 pitch x 0.30 wide x 2.80 long
+#
+# Geometry coordinates are millimetres.  The KiCad model entry applies a
+# 0.393700787 scale because one native KiCad VRML unit represents 2.54 mm.
+# The corrected cable tip is at local Y = -6.62 mm, aligned with the brown
+# latch rather than the far side of the white connector housing.  The complete
+# The complete cable, insertion tongue and terminal pack share the local-X
+# centreline at -19.05 mm, so the uniform-width flex enters J6 under its latch.
+
+Transform {
+  children [
+    # Vertical LCD-side leg.  Its top touches the very bottom edge of the LCD
+    # and its bottom meets the rear-side flat run at Z=-2.90 mm.
+    Transform {
+      translation -19.05 -34.65 -0.10
+      children [
+        Shape {
+          appearance DEF FLEX Appearance {
+            material Material {
+              diffuseColor 1.0 0.52 0.02
+              ambientIntensity 0.35
+              specularColor 0.15 0.08 0.0
+              shininess 0.12
+            }
+          }
+          geometry Box {
+            size 3.50 0.30 5.60
+          }
+        }
+      ]
+    }
+
+    # Uniform-width rear-side section running from the LCD bend to J6.  The
+    # overlap at the bend produces one continuous-looking flex path in KiCad.
+    Transform {
+      translation -19.05 -22.90 -2.90
+      children [
+        Shape {
+          appearance USE FLEX
+          geometry Box {
+            size 3.50 23.50 0.12
+          }
+        }
+      ]
+    }
+
+    # Short insertion tongue at the exact existing J6 endpoint.  It shares the
+    # centreline and width of the rest of the flex so it enters the latch.
+    Transform {
+      translation -19.05 -8.885 -2.90
+      children [
+        Shape {
+          appearance USE FLEX
+          geometry Box {
+            size 3.50 4.53 0.12
+          }
+        }
+      ]
+    }
+
+    # Stiffener on the connector end, opposite the exposed contacts.
+    Transform {
+      translation -19.05 -8.885 -2.80
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.64 0.36 0.08
+              ambientIntensity 0.4
+              specularColor 0.12 0.07 0.02
+              shininess 0.12
+            }
+          }
+          geometry Box {
+            size 3.50 4.53 0.08
+          }
+        }
+      ]
+    }
+
+    # Six exposed J6 contact fingers on the underside of the terminal.  They
+    # end at local Y=-6.62 mm, level with the brown latch.
+    Transform { translation -17.80 -8.02 -2.975 children [ Shape { appearance DEF GOLD Appearance { material Material { diffuseColor 1.0 0.82 0.18 specularColor 0.35 0.25 0.05 shininess 0.3 } } geometry Box { size 0.30 2.80 0.03 } } ] }
+    Transform { translation -18.30 -8.02 -2.975 children [ Shape { appearance USE GOLD geometry Box { size 0.30 2.80 0.03 } } ] }
+    Transform { translation -18.80 -8.02 -2.975 children [ Shape { appearance USE GOLD geometry Box { size 0.30 2.80 0.03 } } ] }
+    Transform { translation -19.30 -8.02 -2.975 children [ Shape { appearance USE GOLD geometry Box { size 0.30 2.80 0.03 } } ] }
+    Transform { translation -19.80 -8.02 -2.975 children [ Shape { appearance USE GOLD geometry Box { size 0.30 2.80 0.03 } } ] }
+    Transform { translation -20.30 -8.02 -2.975 children [ Shape { appearance USE GOLD geometry Box { size 0.30 2.80 0.03 } } ] }
+  ]
+}
