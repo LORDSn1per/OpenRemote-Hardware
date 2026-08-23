@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "OpenRemoteLib")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/symbols/OpenRemoteLib.kicad_sym")(options "")(descr "OpenRemote symbol library"))
-  (lib (name "OpenRemoteDisplay")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/symbols/OpenRemoteDisplay.kicad_sym")(options "")(descr "OpenRemote display symbol library"))
-)
