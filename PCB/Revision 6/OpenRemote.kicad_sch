@@ -50647,6 +50647,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C202118"
+			(at 370.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac2b33c6-af57-46fc-bc2f-5141918e8a4c")
 		)

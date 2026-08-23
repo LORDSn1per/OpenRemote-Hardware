@@ -71,7 +71,7 @@ The exact production files prepared for the Rev6 manufacturing order are here:
 
 The PCB is a two-layer design. The production set was exported using the **EastRising Capacitive LCD** assembly variant. The original Adafruit display remains represented in the KiCad project as an alternate variant.
 
-> J6, the separate touch-FPC connector, and MIC1, the microphone module, do not currently have JLCPCB/LCSC placement codes in the production BOM. Source and fit those parts separately if your assembler cannot supply them.
+> MIC1, the microphone module, does not currently have a JLCPCB/LCSC placement code in the production BOM. Source and fit it separately if your assembler cannot supply it.
 
 ## Core hardware features
 

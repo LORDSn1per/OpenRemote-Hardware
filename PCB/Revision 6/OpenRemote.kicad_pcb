@@ -30523,6 +30523,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C202118"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b56a989b-0fa8-419d-b402-2cefec6c8d69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "KiLib_Generator" "connector/Hirose"
 			(at 0 0 90)
 			(layer "F.SilkS")
