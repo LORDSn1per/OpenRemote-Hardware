@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Cut the rounded rear USB-C access opening aligned to the Dock Rev6 ESP32-C3 placement."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

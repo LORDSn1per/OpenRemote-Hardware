@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": "Replace the imported Dock Rev6 PCB with the current KiCad STEP export and re-check shell/lid interference.",
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

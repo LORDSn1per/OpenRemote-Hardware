@@ -737,7 +737,7 @@
         "uuid": "67a795c7-71c1-4a83-b6d2-c7272e071e9d"
       }
     ],
-    "used_designators": "J7,#PWR148",
+    "used_designators": "#PWR148,J7",
     "variants": [
       {
         "description": "EastRising ER-TFT028-4.2 capacitive-touch LCD assembly",

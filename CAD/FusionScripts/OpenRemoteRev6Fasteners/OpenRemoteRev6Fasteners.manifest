@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": {
+    "": "Replace legacy screws with M3x8 countersunk Phillips screws and fit M3x3x4.2 heat-set inserts."
+  },
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

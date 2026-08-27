@@ -1,0 +1,48 @@
+{
+  "document": "Charging Dock Rev6 v23",
+  "occurrence": "Dock:1",
+  "opening_mm": {
+    "centre_x": -0.43,
+    "centre_y": 11.73,
+    "width": 11.2,
+    "height": 6.0,
+    "corner_radius": 1.5,
+    "z_min": 26.0,
+    "z_max": 35.0
+  },
+  "before": {
+    "name": "Dock",
+    "volume_cm3": 83.7367382864922,
+    "face_count": 91,
+    "bbox": {
+      "min_mm": [
+        -34.112995325001876,
+        0.0,
+        -69.99999999999051
+      ],
+      "max_mm": [
+        34.113265661236184,
+        78.88568326771961,
+        29.99999999997496
+      ]
+    }
+  },
+  "after": {
+    "name": "Dock + Rear USB-C Opening",
+    "volume_cm3": 83.51481648996122,
+    "face_count": 99,
+    "bbox": {
+      "min_mm": [
+        -34.11299532500188,
+        0.0,
+        -69.99999999999051
+      ],
+      "max_mm": [
+        34.11326566123618,
+        78.88568326771961,
+        29.999999999997044
+      ]
+    }
+  },
+  "removed_volume_cm3": 0.2219217965309781
+}

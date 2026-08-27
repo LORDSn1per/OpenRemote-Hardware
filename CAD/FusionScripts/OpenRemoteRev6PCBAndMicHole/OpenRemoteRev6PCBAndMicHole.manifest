@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": "Import the Rev6 KiCad PCB at the exact OMOTE Rev2 board transform and cut the MIC1 acoustic opening through the front cover.",
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

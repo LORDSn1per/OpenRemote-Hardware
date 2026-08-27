@@ -1,0 +1,637 @@
+{
+  "document": "Charging Dock Rev6 v23",
+  "design_type": 1,
+  "root_component": "Charging Dock Rev6 v23",
+  "root_bodies": [],
+  "top_level_occurrences": [
+    {
+      "name": "OpenRemote Rev6 - BuyDisplay LCD - Hollow Reference:1",
+      "full_path": "OpenRemote Rev6 - BuyDisplay LCD - Hollow Reference:1",
+      "component": "OpenRemote Rev6 - BuyDisplay LCD - Hollow Reference",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          -27.909111977308815,
+          6.328459402477868,
+          -71.62881715467185
+        ],
+        "max_mm": [
+          27.912327063474883,
+          205.16419746022765,
+          16.873988663940374
+        ]
+      },
+      "bodies": []
+    },
+    {
+      "name": "Dock:1",
+      "full_path": "Dock:1",
+      "component": "Dock",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          -34.244945130197166,
+          -0.28429421991826526,
+          -70.05412815819923
+        ],
+        "max_mm": [
+          34.80082526029399,
+          84.23384127196215,
+          30.06725934408479
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Dock",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 83.7367382864922,
+          "face_count": 91,
+          "bbox": {
+            "min_mm": [
+              -34.112995325001876,
+              0.0,
+              -69.99999999999051
+            ],
+            "max_mm": [
+              34.113265661236184,
+              78.88568326771961,
+              29.99999999997496
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Omote Shape Rev6 Buy Display LCD v2:1",
+      "full_path": "Omote Shape Rev6 Buy Display LCD v2:1",
+      "component": "Omote Shape Rev6 Buy Display LCD v2",
+      "visible": false,
+      "referenced": true,
+      "bbox": {
+        "min_mm": [
+          -28.022428397630627,
+          5.734353331967625,
+          -71.40914041773975
+        ],
+        "max_mm": [
+          28.00288786988142,
+          205.78334440795595,
+          20.785427246317827
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Case",
+          "visible": false,
+          "solid": true,
+          "volume_cm3": 206.40364065529454,
+          "face_count": 44,
+          "bbox": {
+            "min_mm": [
+              -27.845496230791007,
+              5.998698793417603,
+              -71.08028013699668
+            ],
+            "max_mm": [
+              27.825955717336743,
+              205.60835084725565,
+              20.71877496120773
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Omote Shape Rev6 Adafruit LCD v1:1",
+      "full_path": "Omote Shape Rev6 Adafruit LCD v1:1",
+      "component": "Omote Shape Rev6 Adafruit LCD v1",
+      "visible": false,
+      "referenced": true,
+      "bbox": {
+        "min_mm": [
+          -28.022428397630627,
+          5.734353331967625,
+          -71.40914041773974
+        ],
+        "max_mm": [
+          28.00288786988142,
+          205.47371433367485,
+          19.834570149129867
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Case",
+          "visible": false,
+          "solid": true,
+          "volume_cm3": 197.03264701420449,
+          "face_count": 44,
+          "bbox": {
+            "min_mm": [
+              -27.845496230791007,
+              5.998698793417603,
+              -71.08028013699666
+            ],
+            "max_mm": [
+              27.825955717336743,
+              205.2987207733108,
+              19.767917865052436
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pogo Pin LEFT - Mill-Max 0906-4:1",
+      "full_path": "Pogo Pin LEFT - Mill-Max 0906-4:1",
+      "component": "Pogo Pin LEFT - Mill-Max 0906-4",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          -5.93499999999492,
+          11.670513123460168,
+          -3.2125718410400927
+        ],
+        "max_mm": [
+          -4.064999999994893,
+          18.95814172712128,
+          0.8125000273631178
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Round contact tip DIA 1.07 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.0006414310148552668,
+          "face_count": 1,
+          "bbox": {
+            "min_mm": [
+              -5.534999999994898,
+              17.475005359432807,
+              -0.9220857996901172
+            ],
+            "max_mm": [
+              -4.464999999994894,
+              18.830502504461794,
+              0.4334113453388663
+            ]
+          }
+        },
+        {
+          "name": "Plunger DIA 1.07 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.0007778100390418174,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              -5.5349999999948984,
+              17.1622571967628,
+              -1.0273881583841886
+            ],
+            "max_mm": [
+              -4.4649999999948955,
+              18.323471392254362,
+              0.26269388503181085
+            ]
+          }
+        },
+        {
+          "name": "Sleeve DIA 1.50 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.006131996160725314,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              -5.749999999994909,
+              14.468461991565391,
+              -2.115049941889128
+            ],
+            "max_mm": [
+              -4.2499999999948965,
+              18.23570339309883,
+              0.41380287227281015
+            ]
+          }
+        },
+        {
+          "name": "Retention collar DIA 1.63 x 0.71 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.0014815743100348457,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              -5.814999999994912,
+              13.774838207290179,
+              -2.4032114729386476
+            ],
+            "max_mm": [
+              -4.184999999994909,
+              14.96785045022062,
+              -0.6318654734692455
+            ]
+          }
+        },
+        {
+          "name": "Flange DIA 1.83 x 0.41 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.0010783901628547486,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              -5.914999999994913,
+              13.354362502550451,
+              -2.6288138466706776
+            ],
+            "max_mm": [
+              -4.084999999994912,
+              14.326877845292449,
+              -0.7636529231837605
+            ]
+          }
+        },
+        {
+          "name": "Solder tail DIA 0.43 x 1.75 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.00025413521072131817,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              -5.21499999999492,
+              11.919218158348453,
+              -2.5238302522634664
+            ],
+            "max_mm": [
+              -4.7849999999949135,
+              13.714943306563494,
+              -1.5578883199521687
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pogo Pin RIGHT - Mill-Max 0906-4:1",
+      "full_path": "Pogo Pin RIGHT - Mill-Max 0906-4:1",
+      "component": "Pogo Pin RIGHT - Mill-Max 0906-4",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          4.065000000005173,
+          11.670513123460164,
+          -3.212571841040112
+        ],
+        "max_mm": [
+          5.9350000000052,
+          18.958141727121276,
+          0.8125000273630989
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Round contact tip DIA 1.07 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.0006414310148552668,
+          "face_count": 1,
+          "bbox": {
+            "min_mm": [
+              4.465000000005196,
+              17.4750053594328,
+              -0.9220857996901357
+            ],
+            "max_mm": [
+              5.5350000000051995,
+              18.83050250446179,
+              0.43341134533884773
+            ]
+          }
+        },
+        {
+          "name": "Plunger DIA 1.07 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.0007778100390418174,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              4.465000000005194,
+              17.162257196762795,
+              -1.0273881583842073
+            ],
+            "max_mm": [
+              5.535000000005197,
+              18.323471392254355,
+              0.26269388503179225
+            ]
+          }
+        },
+        {
+          "name": "Sleeve DIA 1.50 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.006131996160725314,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              4.250000000005183,
+              14.468461991565388,
+              -2.1150499418891466
+            ],
+            "max_mm": [
+              5.750000000005197,
+              18.235703393098824,
+              0.41380287227279156
+            ]
+          }
+        },
+        {
+          "name": "Retention collar DIA 1.63 x 0.71 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.0014815743100348457,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              4.185000000005181,
+              13.774838207290173,
+              -2.403211472938666
+            ],
+            "max_mm": [
+              5.815000000005184,
+              14.967850450220617,
+              -0.6318654734692641
+            ]
+          }
+        },
+        {
+          "name": "Flange DIA 1.83 x 0.41 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.0010783901628547486,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              4.085000000005179,
+              13.354362502550448,
+              -2.6288138466706967
+            ],
+            "max_mm": [
+              5.915000000005182,
+              14.326877845292445,
+              -0.7636529231837791
+            ]
+          }
+        },
+        {
+          "name": "Solder tail DIA 0.43 x 1.75 mm",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.00025413521072131817,
+          "face_count": 3,
+          "bbox": {
+            "min_mm": [
+              4.785000000005173,
+              11.919218158348448,
+              -2.5238302522634855
+            ],
+            "max_mm": [
+              5.215000000005179,
+              13.71494330656349,
+              -1.5578883199521874
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dock Base Lid M3x8 Countersunk Screw:1",
+      "full_path": "Dock Base Lid M3x8 Countersunk Screw:1",
+      "component": "Dock Base Lid M3x8 Countersunk Screw",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          13.347275243787637,
+          -3.01,
+          18.281474011657593
+        ],
+        "max_mm": [
+          19.367275243787635,
+          5.010000000000002,
+          24.301474011657596
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Body1",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.06220825773810957,
+          "face_count": 55,
+          "bbox": {
+            "min_mm": [
+              13.357275243787637,
+              -3.0,
+              18.291474011657595
+            ],
+            "max_mm": [
+              19.357275243787637,
+              5.0,
+              24.29147401165759
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dock Base Lid:1",
+      "full_path": "Dock Base Lid:1",
+      "component": "Dock Base Lid",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          -34.124260863724004,
+          -3.0200000000000005,
+          -70.0533150057784
+        ],
+        "max_mm": [
+          34.80001210787315,
+          8.02,
+          30.06644619166395
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Dock Base Lid Pre-PCB-Boss Backup",
+          "visible": false,
+          "solid": true,
+          "volume_cm3": 17.442903617760138,
+          "face_count": 37,
+          "bbox": {
+            "min_mm": [
+              -33.9999996642228,
+              -3.0000000000000004,
+              -70.00050023630088
+            ],
+            "max_mm": [
+              34.000318875540785,
+              1.1999999999999993,
+              30.001184068249778
+            ]
+          }
+        },
+        {
+          "name": "Body6",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 18.598192900191297,
+          "face_count": 57,
+          "bbox": {
+            "min_mm": [
+              -33.9999996642228,
+              -3.0000000000000004,
+              -70.00050023630088
+            ],
+            "max_mm": [
+              34.000318875540785,
+              8.0,
+              30.001184068249778
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dock Base Lid M3x8 Countersunk Screw:2",
+      "full_path": "Dock Base Lid M3x8 Countersunk Screw:2",
+      "component": "Dock Base Lid M3x8 Countersunk Screw",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          -19.36727524377147,
+          -3.01,
+          18.281474011631687
+        ],
+        "max_mm": [
+          -13.347275243771472,
+          5.010000000000002,
+          24.301474011631687
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Body1",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.06220825773810957,
+          "face_count": 55,
+          "bbox": {
+            "min_mm": [
+              -19.357275243771472,
+              -3.0,
+              18.291474011631685
+            ],
+            "max_mm": [
+              -13.357275243771472,
+              5.0,
+              24.291474011631685
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dock Base Lid M3x8 Countersunk Screw:3",
+      "full_path": "Dock Base Lid M3x8 Countersunk Screw:3",
+      "component": "Dock Base Lid M3x8 Countersunk Screw",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          13.991922875040473,
+          -3.01,
+          -62.15170239888303
+        ],
+        "max_mm": [
+          20.011922875040472,
+          5.010000000000002,
+          -56.131702398883036
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Body1",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.06220825773810957,
+          "face_count": 55,
+          "bbox": {
+            "min_mm": [
+              14.00192287504047,
+              -3.0,
+              -62.141702398883034
+            ],
+            "max_mm": [
+              20.00192287504047,
+              5.0,
+              -56.141702398883034
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dock Base Lid M3x8 Countersunk Screw:4",
+      "full_path": "Dock Base Lid M3x8 Countersunk Screw:4",
+      "component": "Dock Base Lid M3x8 Countersunk Screw",
+      "visible": true,
+      "referenced": false,
+      "bbox": {
+        "min_mm": [
+          -20.01192287504448,
+          -3.01,
+          -62.15170239888829
+        ],
+        "max_mm": [
+          -13.991922875044478,
+          5.010000000000002,
+          -56.131702398888294
+        ]
+      },
+      "bodies": [
+        {
+          "name": "Body1",
+          "visible": true,
+          "solid": true,
+          "volume_cm3": 0.06220825773810957,
+          "face_count": 55,
+          "bbox": {
+            "min_mm": [
+              -20.001922875044475,
+              -3.0,
+              -62.14170239888829
+            ],
+            "max_mm": [
+              -14.001922875044476,
+              5.0,
+              -56.14170239888829
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

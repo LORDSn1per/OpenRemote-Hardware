@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Remove the provisional front USB-C cut and create the confirmed physical rear opening."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

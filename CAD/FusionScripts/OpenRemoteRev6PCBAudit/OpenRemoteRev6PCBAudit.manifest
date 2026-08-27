@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": "Audit Rev6 PCB placement and verify that the actual MIC1 hole and front-cover opening share one axis.",
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

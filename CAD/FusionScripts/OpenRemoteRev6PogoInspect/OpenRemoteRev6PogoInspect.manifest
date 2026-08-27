@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": "Inspect candidate rear-shell positions for the Rev6 pogo charging contacts.",
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

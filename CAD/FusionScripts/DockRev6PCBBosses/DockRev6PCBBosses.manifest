@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Add four blind M3 PCB mounting bosses to the Charging Dock Rev6 base lid."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

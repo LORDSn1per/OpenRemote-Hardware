@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Import the corrected populated Dock Rev6 PCB and interference-check it against the dock shell and base lid."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

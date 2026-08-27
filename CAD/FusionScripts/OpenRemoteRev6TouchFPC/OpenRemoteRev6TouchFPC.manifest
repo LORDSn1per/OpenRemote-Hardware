@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Create the verified shorter BuyDisplay touch FPC cable without moving the PCB connector."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

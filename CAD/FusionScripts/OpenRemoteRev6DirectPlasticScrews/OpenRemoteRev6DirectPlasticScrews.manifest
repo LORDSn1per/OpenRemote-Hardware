@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": "Remove the Rev6 heat-set inserts and resize the five front-cover pilot holes for direct M3 screws.",
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

@@ -1,0 +1,73 @@
+** Drc report for Dock Rev6.kicad_pcb **
+** Created on 2026-08-26T20:43:30 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 18 Footprint errors **
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(119.0000 mm, 102.2250 mm): Pad 2 [Net-(D1-A)] of D1 on F.Cu
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(119.0000 mm, 135.2250 mm): Pad 2 [Net-(D2-A)] of D2 on F.Cu
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(81.0000 mm, 106.2750 mm): Pad 2 [Net-(D3-A)] of D3 on F.Cu
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(81.0000 mm, 137.2750 mm): Pad 2 [Net-(D4-A)] of D4 on F.Cu
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(101.0000 mm, 162.0000 mm): PTH pad 2 [Net-(D5-A)] of D5
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Dock Rev6 project component: HX-XH2.54-2PZZ')
+    Local override; warning
+    @(88.5000 mm, 102.2500 mm): Footprint J1
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(108.3250 mm, 149.5000 mm): Pad 1 [Net-(U1-GPIO1/A1)] of R2 on F.Cu
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(106.6750 mm, 149.5000 mm): Pad 2 [Net-(D5-A)] of R2 on F.Cu
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(112.5000 mm, 112.8800 mm): PTH pad 1 [Net-(D1-A)] of R5
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(118.0000 mm, 128.1200 mm): PTH pad 1 [Net-(D2-A)] of R6
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(81.5000 mm, 112.8800 mm): PTH pad 1 [Net-(D3-A)] of R7
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(87.5000 mm, 128.1200 mm): PTH pad 1 [Net-(D4-A)] of R8
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Kinghelm KH-6X6X5H-ZJ (LCSC C2837541), SPST right-angle 6x6mm 5H THT tactile switch')
+    Local override; warning
+    @(100.0000 mm, 78.1700 mm): Footprint SW1
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(107.6200 mm, 88.7400 mm): PTH pad 1 [Net-(U1-GPIO1/A1)] of U1
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(107.6200 mm, 86.2000 mm): PTH pad 2 [unconnected-(U1-GPIO2/A2-Pad2)] of U1
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(92.3800 mm, 81.1200 mm): PTH pad 8 [unconnected-(U1-GPIO8/SDA-Pad8)] of U1
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(92.3800 mm, 83.6600 mm): PTH pad 9 [unconnected-(U1-GPIO9/SCL-Pad9)] of U1
+[net_conflict]: No corresponding pin found in schematic
+    Local override; warning
+    @(92.3800 mm, 91.2800 mm): PTH pad 21 [unconnected-(U1-GPIO21/TX-Pad21)] of U1
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+
+** End of Report **

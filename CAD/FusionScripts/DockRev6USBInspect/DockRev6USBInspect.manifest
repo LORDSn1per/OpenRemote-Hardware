@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Read-only inspection of the dock shell and rear USB-C region."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

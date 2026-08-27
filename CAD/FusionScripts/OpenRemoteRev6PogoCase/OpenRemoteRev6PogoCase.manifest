@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": "Duplicate the Rev6 rear case and add nominal PG-F-3.0-2.0H charging targets.",
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

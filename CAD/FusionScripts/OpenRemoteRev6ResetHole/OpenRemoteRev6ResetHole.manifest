@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": "Cut a 2.2 mm rear-case access hole coaxial with the imported Rev6 PCB reset switch S26.",
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

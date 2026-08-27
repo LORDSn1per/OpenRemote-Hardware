@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Editor local-history snapshots (~140 MB, not source)
+.history/
+
+# Scratch
+tmp/
+
+# KiCad backups / autosave
+*-backups/
+_autosave-*
+*.kicad_prl.lck
+~*.lck

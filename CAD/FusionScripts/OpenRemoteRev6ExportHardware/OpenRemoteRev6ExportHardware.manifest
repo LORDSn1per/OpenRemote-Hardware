@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": {
+    "": "Export the Rev6 M3 screw and heat-set insert source components as standalone STEP files."
+  },
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

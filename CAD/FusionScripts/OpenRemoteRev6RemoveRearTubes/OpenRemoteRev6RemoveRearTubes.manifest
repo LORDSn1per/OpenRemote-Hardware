@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenAI Codex",
+  "description": "Suppress the exposed rear reinforcement cylinders while retaining the Rev6 reverse-screw holes and front blind bosses.",
+  "supportedOS": "mac|windows",
+  "editEnabled": true
+}

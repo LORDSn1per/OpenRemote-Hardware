@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DockRev6")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/footprints/DockRev6.pretty")(options "")(descr "Dock Rev6 self-contained footprint library"))
+  (lib (name "LED_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/LED_SMD.pretty")(options "")(descr "KiCad standard SMD LEDs"))
+  (lib (name "Capacitor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty")(options "")(descr "KiCad standard SMD capacitors"))
+  (lib (name "Capacitor_THT")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_THT.pretty")(options "")(descr "KiCad standard through-hole capacitors"))
+  (lib (name "Resistor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Resistor_SMD.pretty")(options "")(descr "KiCad standard SMD resistors"))
+  (lib (name "Resistor_THT")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Resistor_THT.pretty")(options "")(descr "KiCad standard through-hole resistors"))
+)

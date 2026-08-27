@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Reverse the five OpenRemote Rev6 M3 screw paths: rear access and clearance, front blind bosses and pilot holes."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

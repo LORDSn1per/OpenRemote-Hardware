@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Read-only inspection of the Charging Dock Rev6 base lid before adding PCB bosses."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Read-only inventory of the OpenRemote Rev6 Fusion assembly."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}
