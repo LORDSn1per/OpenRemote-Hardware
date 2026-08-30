@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "OpenRemote",
+  "description": {
+    "": "Read-only diagnosis of the missing rear-case outer lip (Sketch39 / Extrude45)."
+  },
+  "supportedOS": "mac|win",
+  "editEnabled": true
+}

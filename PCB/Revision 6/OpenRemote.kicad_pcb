@@ -30289,7 +30289,7 @@
 				)
 			)
 		)
-		(property "Value" "ER-CON06HB-1_TOUCH"
+		(property "Value" "Touch"
 			(at 0 5.95 90)
 			(layer "F.SilkS")
 			(uuid "7aebd9e3-1ae5-4535-a6ba-faa788e9b7ad")
@@ -55110,7 +55110,7 @@
 		(property "Reference" "LCD2"
 			(at 3.5 36.177148 270)
 			(layer "B.SilkS")
-			(uuid "01e8421d-ad68-44e0-98f8-02ea4165bb38")
+			(uuid "2d09150f-c2de-4ef9-8030-ee94c34efaf8")
 			(effects
 				(font
 					(size 1 1)
@@ -55122,7 +55122,7 @@
 		(property "Value" "EastRising ER-TFT028-4.2 capacitive LCD"
 			(at 0 -36.5 270)
 			(layer "B.Fab")
-			(uuid "b0e60c69-d714-442e-abaf-b227df0b78ea")
+			(uuid "36091c8e-9449-449d-8897-f2ea7edce5bb")
 			(effects
 				(font
 					(size 1 1)
@@ -55135,7 +55135,7 @@
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f29f7fba-33c8-4f4c-b333-6f2f106c9fd4")
+			(uuid "8bd07c63-16a7-48ea-9091-9e843d39b6aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55148,7 +55148,7 @@
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "18296e92-c0dc-4cc3-9030-316b83c2c60f")
+			(uuid "876eab94-ca7a-47a4-a238-f8b3d9448a56")
 			(effects
 				(font
 					(size 1.27 1.27)
