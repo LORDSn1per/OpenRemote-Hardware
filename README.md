@@ -12,8 +12,8 @@ Rev6 focuses on making the remote easier to source, nicer to print, more service
 
 ## What is new in Revision 6?
 
-- **New IPS display support.** Rev6 supports the EastRising/BuyDisplay ER-TFT028A2-4 capacitive display with a separate six-pin touch FPC. It is brighter, sharper, has much better viewing angles, and is easier to source than the original display.
-- **Original display compatibility.** The original Adafruit Product 2770/CH280QV10-CT display remains supported through the alternate display configuration and matching front cover.
+- **New IPS display support.** Rev6 supports the EastRising/BuyDisplay ER-TFT028A2-4 capacitive display with a separate six-pin touch FPC. It is brighter, sharper, has much better viewing angles, is still in production, and is free of the ghost-touch problem that affected the original screen.
+- **Original display compatibility.** The discontinued Adafruit Product 2770/CH280QV10-CT display remains fully supported, and the Rev6 firmware includes an option that runs it with zero ghost touches.
 - **Built-in microphone.** A rear-mounted digital I2S microphone provides hardware support for voice control, voice search, and future assistant features.
 - **Faster charging.** The TP4056 charging circuit is configured for up to approximately 1 A, subject to the battery, power source, and thermal conditions.
 - **Dock charging input.** Rev6 includes a dedicated 5 V input before the fuse, feeding the pogo-pin charging dock contacts or any other 5 V source.
@@ -26,7 +26,27 @@ Rev6 focuses on making the remote easier to source, nicer to print, more service
 
 ## New BuyDisplay LCD
 
-The recommended Rev6 screen is the 2.8-inch 240×320 EastRising/BuyDisplay IPS TFT with capacitive touch. Its separate six-pin touch cable connects to the new J6 connector on the Rev6 PCB.
+### Why the display changed
+
+Two things forced the move away from the original Adafruit screen:
+
+1. **It is discontinued.** The Adafruit Product 2770 / CH280QV10-CT is no longer in production. Anyone building a remote today is hunting through dwindling stock and resellers, which is no basis for a project people are meant to be able to build.
+2. **Its touch behaviour could make the remote unusable.** The Adafruit panel is subject to a well-known ghost-touch problem — phantom presses the user never made. On a remote control that is not a cosmetic annoyance: the device wakes by itself, fires commands at your equipment, and drains its own battery.
+
+The recommended Rev6 screen is therefore the 2.8-inch 240×320 EastRising/BuyDisplay IPS TFT with capacitive touch. It is in current production, easier to source, brighter and sharper, has far better viewing angles, and does not suffer the ghost-touch fault. Its separate six-pin touch cable connects to the new J6 connector on the Rev6 PCB.
+
+### The Adafruit display still works — with zero ghost touches
+
+If you already own the Adafruit panel, it is not wasted. The Rev6 firmware includes an option that changes how the Adafruit touch panel is handled, and with it enabled the display produces **zero ghost touches**. It is a fully supported configuration, not a fallback, and it is why the Adafruit cover plate and matching printed parts are still published here.
+
+Choose your display on this basis:
+
+- **Building from scratch, or buying a screen now** — use the BuyDisplay panel. It is the current, in-production part.
+- **Already have the Adafruit panel** — use it, enable the Adafruit touch option in the firmware, and print the Adafruit cover plate.
+
+Either way, set the correct display option in the [OpenRemote firmware](https://github.com/LORDSn1per/OpenRemote-Firmware) before use.
+
+### Fitting
 
 The BuyDisplay assembly is approximately **0.8 mm thicker** than the original Adafruit screen. It therefore requires the newly updated BuyDisplay front cover plate. Do not try to force the thicker display into the original Adafruit cover.
 
