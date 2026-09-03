@@ -319,9 +319,9 @@ add_symbol(
 )
 for pin in ("1", "3"):
     label_pin("Q1", pin, "GND")
-for pin in ("2", "4"):
+for pin in ("4", "6"):
     label_pin("Q1", pin, "IR_GATE")
-for pin in ("5", "6"):
+for pin in ("2", "5"):
     label_pin("Q1", pin, "IR_K")
 
 # Each LED is parallel, but has its own resistor for balanced current sharing.

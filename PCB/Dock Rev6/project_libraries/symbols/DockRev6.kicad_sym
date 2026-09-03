@@ -72,11 +72,11 @@
 		(symbol "FS8205A_0_1" (rectangle (start -5.08 5.08) (end 5.08 -5.08) (stroke (width 0) (type default)) (fill (type background))))
 		(symbol "FS8205A_1_1"
 			(pin passive line (at -7.62 2.54 0) (length 2.54) (name "S1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
-			(pin input line (at -7.62 0 0) (length 2.54) (name "G1" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+			(pin input line (at -7.62 0 0) (length 2.54) (name "G1" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
 			(pin passive line (at -7.62 -2.54 0) (length 2.54) (name "S2" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
 			(pin input line (at 7.62 2.54 180) (length 2.54) (name "G2" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
 			(pin passive line (at 7.62 0 180) (length 2.54) (name "D2" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
-			(pin passive line (at 7.62 -2.54 180) (length 2.54) (name "D1" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 7.62 -2.54 180) (length 2.54) (name "D1" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
 		)
 	)
 	(symbol "HX-XH2.54-2PZZ"

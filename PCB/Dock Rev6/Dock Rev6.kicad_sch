@@ -970,10 +970,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
+				(pin passive line
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "G1"
+					(name "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1042,10 +1042,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -2.54 180)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "D1"
+					(name "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2575,6 +2575,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 55.88) (xy 27.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca88fe5f-2b7c-46b4-9b1c-95a7e511e429")
+	)
+	(wire
+		(pts
 			(xy 87.63 138.43) (xy 95.25 138.43)
 		)
 		(stroke
@@ -2625,6 +2635,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 55.88) (xy 38.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54a5e86-1b6f-4f31-97c3-917b81ec8d78")
+	)
+	(wire
+		(pts
 			(xy 48.26 105.41) (xy 82.55 105.41)
 		)
 		(stroke
@@ -2655,16 +2675,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd392f11-d04c-4dd6-8549-63e78a9b2494")
-	)
-	(wire
-		(pts
 			(xy 91.44 26.67) (xy 107.95 26.67)
 		)
 		(stroke
@@ -2675,7 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 41.91) (xy 55.88 41.91)
+			(xy 22.86 41.91) (xy 55.88 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +2735,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 41.91) (xy 27.94 55.88)
+			(xy 22.86 41.91) (xy 22.86 55.88)
 		)
 		(stroke
 			(width 0)

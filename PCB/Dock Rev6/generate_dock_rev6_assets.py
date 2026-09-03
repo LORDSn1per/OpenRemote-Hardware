@@ -199,7 +199,9 @@ def make_symbols() -> None:
         ("ESP32-C3_SuperMini", "U", ["5V", "GND", "3V3", "4", "3", "2", "1", "0", "5", "6", "7", "8", "9", "10", "20", "21"], "DockRev6:ESP32-C3_SuperMini_Header_2x08_P2.54mm"),
         ("CC1101_433MHz_Coil", "U", ["GND", "VCC", "GDO0", "CSN", "SCK", "MOSI", "MISO/GDO1", "GDO2"], "DockRev6:CC1101_433MHz_Coil_Module_2x04_P2.54mm"),
         ("MHL512IR059CRT", "D", ["K", "A"], "DockRev6:LED_5mm_Side_Mount_C405273"),
-        ("FS8205A", "Q", ["S1", "G1", "S2", "G2", "D2", "D1"], "DockRev6:FS8205A_SOT-23-6"),
+        # FUXINSEMI C908265 physical order: 1=S1, 2=D1, 3=S2,
+        # 4=G2, 5=D2, 6=G1. Pins 2 and 5 are the common drains.
+        ("FS8205A", "Q", ["S1", "D1", "S2", "G2", "D2", "G1"], "DockRev6:FS8205A_SOT-23-6"),
         ("HX-XH2.54-2PZZ", "J", ["1", "2"], "DockRev6:HX-XH2.54-2PZZ_C42391660"),
         ("SW_6x6x5H", "SW", ["1", "2"], "DockRev6:SW_6x6x5H_THT"),
         ("LED_5mm_Green", "D", ["K", "A"], "DockRev6:LED_5mm_Green_THT"),
