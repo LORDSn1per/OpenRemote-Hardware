@@ -83,6 +83,10 @@ The spring-loaded pogo pins live in the dock; the remote carries fixed gold-plat
 
 ## Charging dock
 
+<div align="center">
+  <img src="images/OpenRemote%20Rev6%20Dock.jpeg" alt="OpenRemote Rev6 Dock feature overview" width="100%">
+</div>
+
 The Rev6 charging dock is a self-aligning cradle that charges the remote through the pogo-pin rear case, and doubles as an always-on IR and sub-GHz blaster in its own right.
 
 - **Pogo-pin charging.** Two spring-loaded pins meet the fixed contacts in the pogo rear case, so the remote charges by being set down rather than plugged in.
@@ -92,6 +96,7 @@ The Rev6 charging dock is a self-aligning cradle that charges the remote through
 - **Status LED and button.** A tactile button on GPIO3 with hardware debounce, plus a status indicator.
 - **Powered by USB-C or JST.** Power comes in through the ESP32-C3 module's USB-C, or the JST XH 2-pin input (J1).
 - **Serviceable.** A 45 × 60 mm two-layer PCB on a 37 × 52 mm M3 mounting pattern, with a separate printed base lid.
+- **Smart-home relay.** Because the board has its own Wi-Fi it can hold a permanent connection to Home Assistant, an MQTT broker or Homebridge, and act on the remote's behalf while the remote sleeps. That is a firmware capability rather than a hardware one — see the [firmware repository](https://github.com/LORDSn1per/OpenRemote-Firmware) — but it is the reason the dock carries an ESP32-C3 rather than a charging circuit alone.
 
 > **Firmware note:** the IR bank is sized for pulsed use. Firmware must not hold `IR_PWM` high continuously.
 
