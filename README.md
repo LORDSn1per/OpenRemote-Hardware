@@ -94,7 +94,7 @@ The Rev6 charging dock is a self-aligning cradle that charges the remote through
 - **Four-emitter IR blaster.** Four MHL512IR059CRT 940 nm emitters run in parallel, each through its own 39 Ω 0.5 W resistor, switched by an FS8205A dual MOSFET. Designed for roughly 95 mA per emitter in pulsed remote-control service, giving the dock far more IR reach than the handheld unit.
 - **433 MHz sub-GHz radio.** A CC1101 module on SPI adds control of RF devices that infrared cannot reach — blinds, garage doors, and similar.
 - **Status LED and button.** A tactile button on GPIO3 with hardware debounce, plus a status indicator.
-- **Powered by USB-C or JST.** Power comes in through the ESP32-C3 module's USB-C, or the JST XH 2-pin input (J1).
+- **Powered by USB-C.** The dock is powered solely through the USB-C connector on the ESP32-C3 module. The 2-pin JST header (J1) is not a second power input — it carries the 5 V rail out to the pogo pins.
 - **Serviceable.** A 45 × 60 mm two-layer PCB on a 37 × 52 mm M3 mounting pattern, with a separate printed base lid.
 - **Smart-home relay.** Because the board has its own Wi-Fi it can hold a permanent connection to Home Assistant, an MQTT broker or Homebridge, and act on the remote's behalf while the remote sleeps. That is a firmware capability rather than a hardware one — see the [firmware repository](https://github.com/LORDSn1per/OpenRemote-Firmware) — but it is the reason the dock carries an ESP32-C3 rather than a charging circuit alone.
 
