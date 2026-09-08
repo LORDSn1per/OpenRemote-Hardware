@@ -105,11 +105,8 @@ The Rev6 charging dock is a self-aligning cradle that charges the remote through
 - Printable parts: [`CAD/Dock/STL`](CAD/Dock/STL) — dock shell, base lid, and menu button, plus a Bambu Lab 3MF project in [`CAD/Dock`](CAD/Dock).
 - Fusion source: [`CAD/Charging Dock Rev6-v47.f3z`](CAD/Charging%20Dock%20Rev6-v47.f3z)
 - KiCad source: [`PCB/Dock Rev6`](PCB/Dock%20Rev6) — includes its own [project README](PCB/Dock%20Rev6/README.md) covering footprints, sourcing notes, and the Fusion handoff transform.
-- [Gerber and drill ZIP](PCB/Dock%20Rev6/Productions%20Files/gerber.zip)
-- [Component placement list (CPL)](PCB/Dock%20Rev6/Productions%20Files/CPL.csv)
-- [Bill of materials (BOM)](PCB/Dock%20Rev6/Productions%20Files/BOM.xlsx)
 
-> Several dock BOM lines have no LCSC code yet: the 100 Ω and 100 kΩ resistors, the 100 µF electrolytic, the 39 Ω 0.5 W IR resistors, and both modules (ESP32-C3 Super Mini, CC1101). The two modules are owner-supplied and not intended for assembly-house placement. Fill the remaining passives before ordering an assembled dock PCB.
+> **Fabrication files withdrawn.** The dock's gerbers, CPL and BOM have been removed. The ESP32-C3 Super Mini footprint on the dock PCB is wrong — the 3D model is correct, but the land pattern is not — so any board made from those files would not accept the module. **Do not order a dock PCB yet.** A corrected set will be published once the footprint is fixed and the board re-verified.
 
 ## PCB files
 
@@ -153,7 +150,7 @@ Always verify component orientation, battery polarity, display selection, and th
 
 The Rev6 remote PCB has been manufactured and assembled, and the first unit is running. The normal and pogo-pin rear cases and both display cover plates are complete and published.
 
-The charging dock has a complete KiCad design with production files and printable enclosure parts. Its PCB has not yet been through a manufacturing run, and several BOM lines still need LCSC codes before an assembled order — treat the dock as pre-production.
+The charging dock's enclosure parts are complete and published. Its PCB is **not ready to order**: the ESP32-C3 Super Mini footprint is being corrected, and the fabrication files have been withdrawn until that is done and verified. The KiCad source stays published so the design can be followed and reviewed.
 
 ## Credits
 
