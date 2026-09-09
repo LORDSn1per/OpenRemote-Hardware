@@ -45,6 +45,25 @@ ESP32-C3 Super Mini pad numbers use the printed signal names directly. USB-C is 
 - ESP32-C3 strap pins GPIO2, GPIO8, and GPIO9 are deliberately left unconnected; GPIO21 is also reserved.
 - Added decoupling: `100nF + 10uF` at the ESP 5V input, `100nF + 10uF` at the CC1101 3.3V rail, and `100uF + 100nF` at the pulsed IR bank.
 
+### Pogo-pin output protection
+
+`D6` is a BAT20J Schottky (LCSC C49238173, `DockRev6:D_SOD-323`) in series between the
+`+5V` rail and `J1` pin 1, creating the `POGO_5V` net. It blocks reverse current from
+the remote back into the dock and protects against reversed pogo contact.
+
+**It is in the schematic only — it is not yet placed or routed on the PCB.**
+
+Two things to check before committing to it:
+
+- A series diode does not limit current. If the pogo pins are shorted together, the
+  diode conducts and the rail collapses; it does not act as a fuse. For short
+  protection a polyfuse or a current-limited load switch in the same position would
+  be needed.
+- The remote's TP4056 is set for roughly 1 A charging. At that current a BAT20J in
+  SOD-323 drops about 0.45 V and dissipates around 0.45 W, which is beyond what that
+  package is comfortable with, and leaves only about 4.55 V at the remote. In the
+  remote, the same part sits on a low-current LDO feed, which is a much gentler duty.
+
 ### Capacitor placement
 
 - `C1 100nF`: immediately beside U1's 5V/GND header pins; shortest possible loop.
@@ -57,7 +76,7 @@ ESP32-C3 Super Mini pad numbers use the printed signal names directly. USB-C is 
 
 `Dock Rev6.kicad_pcb` is populated but not routed. The remaining SMD parts are staged by circuit: C1/C2 beside the header-mounted ESP32, C5/R1 immediately left of it, C3/C4 beside the CC1101 power pins, R3/R4/Q1 to the left of the CC1101 coil envelope, C7 beside J1, and R2 beside D5. The current DRC reports silkscreen cleanup warnings plus the expected unrouted nets; it does not report a copper short, hole, or board-edge clearance failure.
 
-The board immediately before the front/back and mounting-hole correction is retained as `Dock Rev6.before-mechanical-correction-v2.kicad_pcb`; the board immediately before the final rear-wall fit is retained as `Dock Rev6.before-mechanical-fit-v3.kicad_pcb`. `apply_mechanical_fit_v3.py` reapplies the final U1 position and rear-tongue geometry without altering nets or component identities. Use KiCad's native refill after running it. Do not run `generate_dock_rev6_mechanical_board.py` on the populated board; that generator creates a blank mechanical PCB and would replace component placement.
+The `.before-*` rollback boards, the DRC/ERC reports, the netlist and the exported schematic PDF have been removed; only the current `Dock Rev6.kicad_pcb` and `Dock Rev6.kicad_sch` are kept. Earlier states remain in git history if a rollback is ever needed. `apply_mechanical_fit_v3.py` reapplies the final U1 position and rear-tongue geometry without altering nets or component identities. Use KiCad's native refill after running it. Do not run `generate_dock_rev6_mechanical_board.py` on the populated board; that generator creates a blank mechanical PCB and would replace component placement.
 
 ## Fusion 3D handoff
 
