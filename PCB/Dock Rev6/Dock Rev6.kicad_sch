@@ -12,21 +12,20 @@
 		(comment 1 "ESP32-C3 Super Mini + CC1101 + four-channel parallel IR emitter bank")
 	)
 	(lib_symbols
-		(symbol "Diode:MBR0520"
+		(symbol "Device:Polyfuse"
 					(pin_numbers
 						(hide yes)
 					)
 					(pin_names
-						(offset 1.016)
-						(hide yes)
+						(offset 0)
 					)
 					(exclude_from_sim no)
 					(in_bom yes)
 					(on_board yes)
 					(in_pos_files yes)
 					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" "D"
-						(at 0 2.54 0)
+					(property "Reference" "F"
+						(at -2.54 0 90)
 						(show_name no)
 						(do_not_autoplace no)
 						(effects
@@ -35,8 +34,8 @@
 							)
 						)
 					)
-					(property "Value" "MBR0520"
-						(at 0 -2.54 0)
+					(property "Value" "Polyfuse"
+						(at 2.54 0 90)
 						(show_name no)
 						(do_not_autoplace no)
 						(effects
@@ -45,8 +44,8 @@
 							)
 						)
 					)
-					(property "Footprint" "Diode_SMD:D_SOD-123"
-						(at 0 -4.445 0)
+					(property "Footprint" ""
+						(at 1.27 -5.08 0)
 						(show_name no)
 						(do_not_autoplace no)
 						(hide yes)
@@ -54,9 +53,10 @@
 							(font
 								(size 1.27 1.27)
 							)
+							(justify left)
 						)
 					)
-					(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+					(property "Datasheet" ""
 						(at 0 0 0)
 						(show_name no)
 						(do_not_autoplace no)
@@ -67,7 +67,7 @@
 							)
 						)
 					)
-					(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
+					(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 						(at 0 0 0)
 						(show_name no)
 						(do_not_autoplace no)
@@ -78,7 +78,7 @@
 							)
 						)
 					)
-					(property "ki_keywords" "diode Schottky"
+					(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
 						(at 0 0 0)
 						(show_name no)
 						(do_not_autoplace no)
@@ -89,7 +89,7 @@
 							)
 						)
 					)
-					(property "ki_fp_filters" "D*SOD?123*"
+					(property "ki_fp_filters" "*polyfuse* *PTC*"
 						(at 0 0 0)
 						(show_name no)
 						(do_not_autoplace no)
@@ -100,11 +100,22 @@
 							)
 						)
 					)
-					(symbol "MBR0520_0_1"
+					(symbol "Polyfuse_0_1"
 						(polyline
 							(pts
-								(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+								(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
 							)
+							(stroke
+								(width 0)
+								(type default)
+							)
+							(fill
+								(type none)
+							)
+						)
+						(rectangle
+							(start -0.762 2.54)
+							(end 0.762 -2.54)
 							(stroke
 								(width 0.254)
 								(type default)
@@ -115,19 +126,7 @@
 						)
 						(polyline
 							(pts
-								(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-							)
-							(stroke
-								(width 0.254)
-								(type default)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 1.27 0) (xy -1.27 0)
+								(xy 0 2.54) (xy 0 -2.54)
 							)
 							(stroke
 								(width 0)
@@ -138,11 +137,11 @@
 							)
 						)
 					)
-					(symbol "MBR0520_1_1"
+					(symbol "Polyfuse_1_1"
 						(pin passive line
-							(at -3.81 0 0)
-							(length 2.54)
-							(name "K"
+							(at 0 3.81 270)
+							(length 1.27)
+							(name ""
 								(effects
 									(font
 										(size 1.27 1.27)
@@ -158,9 +157,9 @@
 							)
 						)
 						(pin passive line
-							(at 3.81 0 180)
-							(length 2.54)
-							(name "A"
+							(at 0 -3.81 90)
+							(length 1.27)
+							(name ""
 								(effects
 									(font
 										(size 1.27 1.27)
@@ -6276,17 +6275,17 @@
 		(uuid "df34e24d-e2cf-4c9b-b0a7-a29d40ce2c26")
 	)
 	(symbol
-		(lib_id "Diode:MBR0520")
-		(at 88.9 57.15 90)
+		(lib_id "Device:Polyfuse")
+		(at 88.9 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "563e57e4-fd6f-488f-9101-84c8e50dda07")
-		(property "Reference" "D6"
-			(at 86.868 57.15 90)
+		(uuid "d949e335-851e-47ad-a534-b51413090786")
+		(property "Reference" "F1"
+			(at 91.44 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6295,8 +6294,8 @@
 				)
 			)
 		)
-		(property "Value" "BAT20J"
-			(at 91.44 57.15 90)
+		(property "Value" "1000mA"
+			(at 91.44 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6305,18 +6304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DockRev6:D_SOD-323"
-			(at 88.9 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010330_STMicroelectronics-BAT20JFILM_C155590.pdf"
+		(property "Footprint" "DockRev6:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6327,7 +6315,7 @@
 				)
 			)
 		)
-		(property "Description" "HIGH EFFICIENCY SWITCHING AND ULTRA LOW LEAKAGE CURRENT SCHOTTKY DIODE"
+		(property "Datasheet" "~"
 			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6338,7 +6326,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C49238173"
+		(property "Description" "Resettable fuse, PPTC"
+			(at 88.9 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C220146"
 			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6350,15 +6349,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e81af258-222e-45bd-80d5-b8bb93fc271d")
+			(uuid "29da1694-e73a-4d38-a7a2-14ce8775f22b")
 		)
 		(pin "2"
-			(uuid "abb93fde-8d18-4df7-ba87-342730167b08")
+			(uuid "844e6dcf-7775-4dbc-93cf-bb70a0fd129e")
 		)
 		(instances
 			(project "Dock Rev6"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
-					(reference "D6")
+					(reference "F1")
 					(unit 1)
 				)
 			)

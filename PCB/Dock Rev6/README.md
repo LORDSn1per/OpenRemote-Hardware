@@ -47,22 +47,29 @@ ESP32-C3 Super Mini pad numbers use the printed signal names directly. USB-C is 
 
 ### Pogo-pin output protection
 
-`D6` is a BAT20J Schottky (LCSC C49238173, `DockRev6:D_SOD-323`) in series between the
-`+5V` rail and `J1` pin 1, creating the `POGO_5V` net. It blocks reverse current from
-the remote back into the dock and protects against reversed pogo contact.
+`F1` is a 1 A resettable polyfuse (PPTC, LCSC C220146,
+`DockRev6:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder`) in series between the `+5V`
+rail and `J1` pin 1, creating the `POGO_5V` net. It is the same part the remote uses as
+its F1. The IR bank, the ESP32 and the decoupling all stay on the raw `+5V` rail; only
+the pogo output passes through the fuse.
 
 **It is in the schematic only — it is not yet placed or routed on the PCB.**
 
-Two things to check before committing to it:
+This replaced an earlier BAT20J series diode, for two reasons. A polyfuse actually
+addresses the failure being guarded against: if the exposed pogo contacts are shorted,
+it heats and trips, where a series diode would simply conduct and let the rail collapse.
+And it barely drops any voltage — a few tens of millivolts against roughly 0.45 V for a
+Schottky at 1 A — so the remote still sees close to a full 5 V.
 
-- A series diode does not limit current. If the pogo pins are shorted together, the
-  diode conducts and the rail collapses; it does not act as a fuse. For short
-  protection a polyfuse or a current-limited load switch in the same position would
-  be needed.
-- The remote's TP4056 is set for roughly 1 A charging. At that current a BAT20J in
-  SOD-323 drops about 0.45 V and dissipates around 0.45 W, which is beyond what that
-  package is comfortable with, and leaves only about 4.55 V at the remote. In the
-  remote, the same part sits on a low-current LDO feed, which is a much gentler duty.
+Two things to be aware of:
+
+- A polyfuse does **not** block reverse current. The dropped diode would have stopped
+  the remote back-feeding into the dock; the fuse does not. If back-feed matters, an
+  ideal-diode controller or a load switch would cover both cases.
+- Trip is thermal, so it takes seconds rather than being instant, and hold current
+  derates as temperature rises. With the remote's TP4056 set near 1 A, a 1 A hold part
+  sits close to its limit inside a closed enclosure. Watch for nuisance trips during a
+  full-rate charge; a 1.1 A or 1.5 A hold part is the fallback.
 
 ### Capacitor placement
 

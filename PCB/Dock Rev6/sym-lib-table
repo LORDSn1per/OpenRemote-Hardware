@@ -3,5 +3,4 @@
   (lib (name "DockRev6")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/symbols/DockRev6.kicad_sym")(options "")(descr "Dock Rev6 project symbols"))
   (lib (name "Device")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")(options "")(descr "KiCad standard device symbols"))
   (lib (name "power")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/power.kicad_sym")(options "")(descr "KiCad standard power symbols"))
-  (lib (name "Diode")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")(options "")(descr "KiCad standard diode symbols"))
 )
