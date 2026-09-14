@@ -12,171 +12,164 @@
 		(comment 1 "ESP32-C3 Super Mini + CC1101 + four-channel parallel IR emitter bank")
 	)
 	(lib_symbols
-		(symbol "Device:Polyfuse"
-					(pin_numbers
-						(hide yes)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(pin_names
-						(offset 0)
-					)
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" "F"
-						(at -2.54 0 90)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Value" "Polyfuse"
-						(at 2.54 0 90)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" ""
-						(at 1.27 -5.08 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-							(justify left)
-						)
-					)
-					(property "Datasheet" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "ki_fp_filters" "*polyfuse* *PTC*"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "Polyfuse_0_1"
-						(polyline
-							(pts
-								(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-							)
-							(stroke
-								(width 0)
-								(type default)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(rectangle
-							(start -0.762 2.54)
-							(end 0.762 -2.54)
-							(stroke
-								(width 0.254)
-								(type default)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 0 2.54) (xy 0 -2.54)
-							)
-							(stroke
-								(width 0)
-								(type default)
-							)
-							(fill
-								(type none)
-							)
-						)
-					)
-					(symbol "Polyfuse_1_1"
-						(pin passive line
-							(at 0 3.81 270)
-							(length 1.27)
-							(name ""
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 0 -3.81 90)
-							(length 1.27)
-							(name ""
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_names
 				(offset 0.254)
@@ -308,6 +301,171 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1939,6 +2097,12 @@
 		(uuid "0b3a9e01-3a1c-444b-874c-b1fe2086f021")
 	)
 	(junction
+		(at 60.96 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c6c67b4-823b-4baf-8651-610b4ea73e41")
+	)
+	(junction
 		(at 129.54 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1955,6 +2119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ff2efd1-df4e-4c39-b914-ad8653ddf5b4")
+	)
+	(junction
+		(at 30.48 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e72e27-9a21-4b5c-a81c-3356011871cd")
 	)
 	(junction
 		(at 30.48 167.64)
@@ -2100,6 +2270,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 52.07) (xy 81.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1a3e96-8a45-4c30-90f3-b7eb3e898cfb")
+	)
+	(wire
+		(pts
 			(xy 53.34 167.64) (xy 64.77 167.64)
 		)
 		(stroke
@@ -2107,6 +2287,16 @@
 			(type default)
 		)
 		(uuid "0dca068d-c7d6-475e-8b94-e4ba9956314d")
+	)
+	(wire
+		(pts
+			(xy 91.44 147.32) (xy 60.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1090f1e5-bfa0-424a-94f0-34ba7adab59b")
 	)
 	(wire
 		(pts
@@ -2220,7 +2410,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 52.07) (xy 88.9 52.07)
+			(xy 120.65 52.07) (xy 81.28 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2240,13 +2430,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 64.77 142.24)
+			(xy 88.9 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36ed5507-3ada-4c2c-9603-71643802809e")
+		(uuid "3270ff07-b687-4d9a-ac3a-2dc730cc13e8")
 	)
 	(wire
 		(pts
@@ -2307,6 +2497,16 @@
 			(type default)
 		)
 		(uuid "4615d35c-4796-452f-8403-ea1726d8fd90")
+	)
+	(wire
+		(pts
+			(xy 91.44 160.02) (xy 30.48 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b32078f-7cb1-407c-9d07-d8f4adcd80b7")
 	)
 	(wire
 		(pts
@@ -2397,6 +2597,36 @@
 			(type default)
 		)
 		(uuid "604803f2-e04e-43bb-b47f-813fe9a6caf6")
+	)
+	(wire
+		(pts
+			(xy 91.44 149.86) (xy 91.44 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61358ff2-02eb-4bd4-8d45-11c6bd5021ca")
+	)
+	(wire
+		(pts
+			(xy 81.28 63.5) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617663bc-a9a1-49bb-8815-94aad2ef635e")
+	)
+	(wire
+		(pts
+			(xy 30.48 160.02) (xy 30.48 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d7ece9-dc39-4564-a2c6-5fc79ce1829f")
 	)
 	(wire
 		(pts
@@ -2550,13 +2780,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 154.94) (xy 30.48 167.64)
+			(xy 30.48 154.94) (xy 30.48 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9d1c494-d03e-4227-a212-2f0fd064d7a3")
+	)
+	(wire
+		(pts
+			(xy 53.34 142.24) (xy 60.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb186b6-9b9b-40c0-9cbb-6db6c6c10c15")
 	)
 	(wire
 		(pts
@@ -2617,26 +2857,6 @@
 			(type default)
 		)
 		(uuid "baa633de-532b-4bc3-abf1-6ded0c9acf72")
-	)
-	(wire
-		(pts
-			(xy 88.9 52.07) (xy 88.9 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c1a3e96-8a45-4c30-90f3-b7eb3e898cfb")
-	)
-	(wire
-		(pts
-			(xy 88.9 60.96) (xy 88.9 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a93354a-6f37-4564-b701-88d60e38849a")
 	)
 	(wire
 		(pts
@@ -2707,6 +2927,16 @@
 			(type default)
 		)
 		(uuid "c509e662-b1cb-4171-925c-843acb0ee6dc")
+	)
+	(wire
+		(pts
+			(xy 60.96 142.24) (xy 60.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5aa166a-b442-4d66-a43b-6dfb065b3b4e")
 	)
 	(wire
 		(pts
@@ -2920,6 +3150,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 142.24) (xy 64.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f067c1f6-8ce2-4c16-99d9-0e50c2057de2")
+	)
+	(wire
+		(pts
 			(xy 229.87 39.37) (xy 222.25 39.37)
 		)
 		(stroke
@@ -2937,6 +3177,16 @@
 			(type default)
 		)
 		(uuid "fb6fda64-387a-4262-a325-fbdd9d16b8a6")
+	)
+	(label "POGO_5V"
+		(at 80.01 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df34e24d-e2cf-4c9b-b0a7-a29d40ce2c26")
 	)
 	(global_label "RF_GDO2"
 		(shape input)
@@ -5567,6 +5817,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 96.52 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c70a8dee-5239-42b2-afd8-9d6d05c5c380")
+		(property "Reference" "J4"
+			(at 99.06 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ext LED"
+			(at 99.06 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric_Pad1.12x2.15mm_HandSolder"
+			(at 96.52 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 96.52 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4243c4ff-72f8-4488-976f-92bfe7f4e71f")
+		)
+		(pin "1"
+			(uuid "e59aef3a-5e0d-4a54-ae72-ce1f8577f547")
+		)
+		(instances
+			(project "Dock Rev6"
+				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DockRev6:ESP32-C3_SuperMini")
 		(at 73.66 35.56 0)
 		(unit 1)
@@ -6088,6 +6420,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 81.28 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d949e335-851e-47ad-a534-b51413090786")
+		(property "Reference" "F1"
+			(at 77.47 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000mA"
+			(at 76.962 60.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DockRev6:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, PPTC"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C220146"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29da1694-e73a-4d38-a7a2-14ce8775f22b")
+		)
+		(pin "2"
+			(uuid "844e6dcf-7775-4dbc-93cf-bb70a0fd129e")
+		)
+		(instances
+			(project "Dock Rev6"
+				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DockRev6:SW_6x6x5H")
 		(at 67.31 91.44 0)
 		(unit 1)
@@ -6258,106 +6680,6 @@
 			(project "Dock Rev6"
 				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(label "POGO_5V"
-		(at 88.9 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df34e24d-e2cf-4c9b-b0a7-a29d40ce2c26")
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 88.9 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d949e335-851e-47ad-a534-b51413090786")
-		(property "Reference" "F1"
-			(at 91.44 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1000mA"
-			(at 91.44 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DockRev6:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 88.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, PPTC"
-			(at 88.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C220146"
-			(at 88.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29da1694-e73a-4d38-a7a2-14ce8775f22b")
-		)
-		(pin "2"
-			(uuid "844e6dcf-7775-4dbc-93cf-bb70a0fd129e")
-		)
-		(instances
-			(project "Dock Rev6"
-				(path "/67a795c7-71c1-4a83-b6d2-c7272e071e9d"
-					(reference "F1")
 					(unit 1)
 				)
 			)

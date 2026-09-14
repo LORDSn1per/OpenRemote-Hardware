@@ -105,8 +105,7 @@ The Rev6 charging dock is a self-aligning cradle that charges the remote through
 - Printable parts: [`CAD/Dock/STL`](CAD/Dock/STL) — dock shell, base lid, and menu button, plus a Bambu Lab 3MF project in [`CAD/Dock`](CAD/Dock).
 - Fusion source: [`CAD/Charging Dock Rev6-v47.f3z`](CAD/Charging%20Dock%20Rev6-v47.f3z)
 - KiCad source: [`PCB/Dock Rev6`](PCB/Dock%20Rev6) — includes its own [project README](PCB/Dock%20Rev6/README.md) covering footprints, sourcing notes, and the Fusion handoff transform.
-
-> **Fabrication files withdrawn.** The dock's gerbers, CPL and BOM have been removed. The ESP32-C3 Super Mini footprint on the dock PCB is wrong — the 3D model is correct, but the land pattern is not — so any board made from those files would not accept the module. **Do not order a dock PCB yet.** A corrected set will be published once the footprint is fixed and the board re-verified.
+- Production files: [Gerber and drill ZIP](PCB/Dock%20Rev6/Production%20Files/gerber.zip), [CPL](PCB/Dock%20Rev6/Production%20Files/CPL.csv) and [BOM](PCB/Dock%20Rev6/Production%20Files/BOM.xlsx) for JLCPCB assembly of the SMD parts. The through-hole parts — ESP32-C3 headers, CC1101, IR LEDs, resistors, button, J1 and C6 — are fitted by hand.
 
 ## PCB files
 
@@ -150,7 +149,7 @@ Always verify component orientation, battery polarity, display selection, and th
 
 The Rev6 remote PCB has been manufactured and assembled, and the first unit is running. The normal and pogo-pin rear cases and both display cover plates are complete and published.
 
-The charging dock's enclosure parts are complete and published. Its PCB is **not ready to order**: the ESP32-C3 Super Mini footprint is being corrected, and the fabrication files have been withdrawn until that is done and verified. The KiCad source stays published so the design can be followed and reviewed.
+The charging dock's enclosure parts are complete and published. Its PCB has been corrected — the ESP32-C3 Super Mini now mounts on the underside of the board — and a new set of fabrication files is published. The corrected dock board has not yet been built and tested, so check the manufacturer preview carefully before ordering.
 
 ## Credits
 
